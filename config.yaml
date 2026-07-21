@@ -1,0 +1,25 @@
+project:
+  name: "World Cup 2026 Final Analysis"
+  match: "Spain vs Argentina"
+  date: "2026-07-19"
+  venue: "MetLife Stadium, East Rutherford, NJ"
+
+data_sources:
+  openfootball:
+    url: "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json"
+    raw_path: "data/raw/openfootball_2026.json"
+  wcup2026:
+    base_url: "https://wcup2026.org/api/data.php"
+    raw_path: "data/raw/wcup2026_matches.json"
+  fotmob:
+    base_url: "https://www.fotmob.com/api"
+    league_id: 77
+    season_id: 24254
+    raw_path: "data/raw/fotmob_match_details.json"
+
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  reports: "reports"
+  figures: "reports/figures"
+  external: "data/external"
