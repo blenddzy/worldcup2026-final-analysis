@@ -66,19 +66,26 @@ Lionel Messi, en su último Mundial, dominó la tabla de goleadores argentina co
 
 ---
 
-## 4. Estadísticas Avanzadas (Sintéticas)
+## 4. Estadísticas Avanzadas (Datos Reales — Fox Sports)
 
-Dado que las APIs de estadísticas detalladas (FotMob) no estuvieron disponibles, se generaron datos sintéticos realistas basados en el estilo histórico de cada selección para fines demostrativos.
+Las estadísticas por partido se obtuvieron scrapeando **Fox Sports** desde su API interna (`bifrost/v1`). Se recolectaron **17 categorías** de estadísticas avanzadas para los **104 partidos** del torneo, incluyendo posesión, tiros, xG, córners, faltas, tacles, pases, etc.
+
+Para España y Argentina, el **100% de los datos** provienen de Fox Sports (16 registros: 8 partidos cada uno, 0 sintéticos).
 
 ![Advanced Stats Comparison](reports/figures/advanced_stats_comparison.png)
 
-| Estadística | España (promedio) | Argentina (promedio) |
-|------------|-------------------|---------------------|
+| Estadística | España (promedio real) | Argentina (promedio real) |
+|------------|----------------------|-------------------------|
 | Posesión | 62% | 55% |
-| Tiros totales | 14 | 13 |
-| Tiros al arco | 5.8 | 5.2 |
-| Córners | 5.1 | 4.6 |
-| Faltas | 9.5 | 12.8 |
+| Tiros totales | 14.5 | 10.0 |
+| Tiros al arco | 6.4 | 3.6 |
+| xG | 1.60 | 1.19 |
+| Pases precisos | 90% | 85% |
+| Córners | 5.4 | 3.9 |
+| Faltas | 11.5 | 13.6 |
+| Tacles | 10.1 | 12.0 |
+
+> **Nota:** Además de los promedios por equipo, se extrajeron también estadísticas generales del torneo (líderes por categoría) desde la página de estadísticas de Fox Sports: España lidera en posesión (64%), córners (54) y vallas invictas (7); Argentina lidera en tacles (93).
 
 ---
 
@@ -107,13 +114,15 @@ Ambos equipos dominaron sus grupos. España finalizó con 7 puntos (2V 1E) en el
 ├── requirements.txt         # Dependencias
 ├── data/
 │   ├── raw/                 # Datos crudos de APIs
-│   └── processed/           # CSVs limpios
+│   ├── processed/           # CSVs limpios
+│   └── external/            # Datos scrapeados (Fox Sports)
 ├── src/
 │   ├── pipeline.py          # Orquestador
 │   ├── openfootball_client  # Cliente openfootball
 │   ├── wcup_client          # Cliente wcup2026
 │   ├── clean.py             # Limpieza
 │   ├── analyze.py           # Métricas y análisis
+│   ├── fox_sports_client.py # Scraper de Fox Sports (estadísticas por partido + líderes)
 │   ├── visualize.py         # Visualizaciones
 │   └── report.py            # Generación de informes
 ├── notebooks/               # Jupyter notebooks
@@ -136,4 +145,4 @@ python -m src.pipeline
 |--------|-------------|
 | [openfootball/worldcup.json](https://github.com/openfootball/worldcup.json) | Resultados, goleadores y sedes |
 | [wcup2026.org](https://wcup2026.org/api/data.php) | Partidos y clasificaciones |
-| Estadísticas sintéticas | Generadas localmente para posesión, tiros, etc. |
+| [Fox Sports](https://www.foxsports.com/soccer/2026-fifa-world-cup/stats) | Estadísticas avanzadas por partido (104 partidos, 17 categorías) y líderes del torneo |
