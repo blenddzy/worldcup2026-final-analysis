@@ -160,6 +160,198 @@ def load_real_team_stats(stats_path: str = "") -> dict:
     return {}
 
 
+def _get_team_stats_from_fox(match, team, per_match_stats):
+    """Extrae estadísticas reales de Fox Sports para un equipo en un partido."""
+    if not per_match_stats:
+        return None
+    is_home = match["team_home"] == team
+    for mdata in per_match_stats.values():
+        if (
+            mdata["home_team"] == match["team_home"]
+            and mdata["away_team"] == match["team_away"]
+        ):
+            side = "home" if is_home else "away"
+            result = {}
+            for k, v in mdata["stats"].items():
+                try:
+                    result[k] = float(v[side])
+                except (ValueError, TypeError):
+                    result[k] = v[side]
+            return result
+    return None
+
+
+def build_team_xg_df(matches_df, per_match_stats, teams=None):
+    """Construye DataFrame con xG, goles, tiros por equipo para todo el torneo."""
+    rows = []
+    for _, m in matches_df.iterrows():
+        for team in [m["team_home"], m["team_away"]]:
+            if teams and team not in teams:
+                continue
+            real = _get_team_stats_from_fox(m, team, per_match_stats)
+            if not real:
+                continue
+            is_home = m["team_home"] == team
+            xg = real.get("expected_goals", 0)
+            shots = real.get("total_shots", 0)
+            sot = real.get("shots_on_goal", 0)
+            poss = real.get("possession", 50)
+            goals = float(m["score_ft_home"] if is_home else m["score_ft_away"])
+            goals_conceded = float(
+                m["score_ft_away"] if is_home else m["score_ft_home"]
+            )
+            rows.append(
+                {
+                    "team": team,
+                    "opponent": m["team_away"] if is_home else m["team_home"],
+                    "round": m["round"],
+                    "xG": xg,
+                    "goals": goals,
+                    "goals_conceded": goals_conceded,
+                    "shots": shots,
+                    "shots_on_target": sot,
+                    "possession": poss,
+                }
+            )
+    return pd.DataFrame(rows)
+
+
+def final_vs_tournament_avg(
+    xg_df: pd.DataFrame, team: str, final_opponent: str
+) -> dict:
+    """Compara rendimiento de un equipo en la final vs su promedio del torneo."""
+    team_df = xg_df[xg_df["team"] == team].copy()
+    if team_df.empty:
+        return {}
+    final_mask = (team_df["opponent"] == final_opponent) & (team_df["round"] == "Final")
+    final_row = team_df[final_mask]
+    if final_row.empty:
+        final_row = team_df[team_df["opponent"] == final_opponent].tail(1)
+    tourney = team_df[~final_mask]
+    if tourney.empty or final_row.empty:
+        return {}
+    metrics = ["possession", "shots", "shots_on_target", "xG", "goals"]
+    result = {"team": team, "final_opponent": final_opponent}
+    for m in metrics:
+        avg = float(tourney[m].mean())
+        std = float(tourney[m].std()) if len(tourney) > 1 else 0
+        final_val = float(final_row[m].iloc[0])
+        z = (final_val - avg) / std if std > 0 else 0
+        result[f"{m}_avg"] = round(avg, 2)
+        result[f"{m}_final"] = round(final_val, 2)
+        result[f"{m}_z"] = round(z, 2)
+    return result
+
+
+def build_xg_table(xg_df: pd.DataFrame, teams: list) -> pd.DataFrame:
+    """Tabla de xG vs goles reales para equipos dados (ej. semifinalistas)."""
+    rows = []
+    for team in teams:
+        tdf = xg_df[xg_df["team"] == team]
+        if tdf.empty:
+            continue
+        total_xg = tdf["xG"].sum()
+        total_goals = tdf["goals"].sum()
+        total_xga = tdf["goals_conceded"].sum()
+        total_ga = tdf["goals_conceded"].sum()
+        n = len(tdf)
+        conv = round(total_goals / total_xg, 3) if total_xg > 0 else 0
+        rows.append(
+            {
+                "team": team,
+                "partidos": n,
+                "xG": round(total_xg, 2),
+                "goles": int(total_goals),
+                "diff_goles_xg": round(total_goals - total_xg, 2),
+                "xG_por_partido": round(total_xg / n, 2) if n else 0,
+                "goles_por_partido": round(total_goals / n, 2) if n else 0,
+                "eficiencia_ofensiva": conv,
+                "goles_recibidos": int(total_ga),
+            }
+        )
+    return pd.DataFrame(rows).sort_values("diff_goles_xg", ascending=False)
+
+
+def conversion_efficiency(xg_df: pd.DataFrame, teams: list = None) -> pd.DataFrame:
+    """Métrica de eficiencia de conversión por equipo."""
+    if teams:
+        tdf = xg_df[xg_df["team"].isin(teams)]
+    else:
+        tdf = xg_df
+    grouped = (
+        tdf.groupby("team")
+        .agg(
+            partidos=("xG", "count"),
+            goles=("goals", "sum"),
+            xG=("xG", "sum"),
+            tiros=("shots", "sum"),
+            tiros_arco=("shots_on_target", "sum"),
+        )
+        .reset_index()
+    )
+    grouped["conversion_tiros"] = round(grouped["goles"] / grouped["tiros"] * 100, 1)
+    grouped["conversion_tiros_arco"] = round(
+        grouped["goles"] / grouped["tiros_arco"] * 100, 1
+    )
+    grouped["eficiencia_xG"] = round(grouped["goles"] / grouped["xG"], 3)
+    grouped["sobreperformance"] = round(grouped["goles"] - grouped["xG"], 2)
+    grouped["tiros_por_gol"] = round(grouped["tiros"] / grouped["goles"], 1)
+    grouped["xG_por_tiro"] = round(grouped["xG"] / grouped["tiros"], 3)
+    return grouped.sort_values("sobreperformance", ascending=False)
+
+
+def xg_predictor_accuracy(xg_df: pd.DataFrame) -> dict:
+    """Evalúa qué tan seguido el equipo con mayor xG ganó el partido."""
+    correct = 0
+    total = 0
+    by_round = {}
+    for _, m in xg_df.iterrows():
+        team = m["team"]
+        opp = m["opponent"]
+        rnd = m["round"]
+        opp_row = xg_df[
+            (xg_df["team"] == opp)
+            & (xg_df["opponent"] == team)
+            & (xg_df["round"] == rnd)
+        ]
+        if opp_row.empty:
+            continue
+        opp_xg = opp_row["xG"].iloc[0]
+        team_goals = m["goals"]
+        opp_goals = opp_row["goals"].iloc[0]
+        if m["xG"] > opp_xg:
+            predicted = team
+            predicted_won = team_goals > opp_goals
+        elif opp_xg > m["xG"]:
+            predicted = opp
+            predicted_won = opp_goals > team_goals
+        else:
+            predicted_won = team_goals == opp_goals
+        actual_winner = (
+            team
+            if team_goals > opp_goals
+            else (opp if opp_goals > team_goals else "draw")
+        )
+        if predicted_won or actual_winner == "draw":
+            correct += 1
+        total += 1
+        by_round[rnd] = by_round.get(rnd, {"correct": 0, "total": 0})
+        if predicted_won or actual_winner == "draw":
+            by_round[rnd]["correct"] += 1
+        by_round[rnd]["total"] += 1
+    accuracy = round(correct / total * 100, 1) if total else 0
+    by_round_summary = {
+        r: round(v["correct"] / v["total"] * 100, 1)
+        for r, v in sorted(by_round.items())
+    }
+    return {
+        "accuracy_pct": accuracy,
+        "correctos": correct,
+        "total": total,
+        "por_ronda": by_round_summary,
+    }
+
+
 def generate_synthetic_match_stats(
     matches_df: pd.DataFrame,
     teams: list[str],

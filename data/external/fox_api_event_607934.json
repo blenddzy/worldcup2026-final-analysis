@@ -1,0 +1,153 @@
+{
+  "odds": {
+    "odds": {
+      "title": "Soccer",
+      "columnHeaders": [
+        "TO WIN",
+        "TOTAL"
+      ],
+      "rows": [
+        {
+          "text": "ESP",
+          "fullText": "Spain",
+          "image": {
+            "url": "https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.200.200.medium.0.png",
+            "altUrl": "https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.200.200.medium.0.png",
+            "type": "image-logo",
+            "altText": "Spain"
+          },
+          "imageUrl": "https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.200.200.medium.0.png",
+          "alternateImageUrl": "https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.200.200.medium.0.png",
+          "imageType": "image-logo",
+          "imageAltText": "Spain",
+          "values": [
+            {
+              "id": "closing",
+              "odds": "+123",
+              "success": true
+            },
+            {
+              "id": "closing",
+              "odds": "O 2.5",
+              "success": false
+            }
+          ],
+          "template": "entity"
+        },
+        {
+          "text": "ARG",
+          "fullText": "Argentina",
+          "image": {
+            "url": "https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.200.200.medium.0.png",
+            "altUrl": "https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.200.200.medium.0.png",
+            "type": "image-logo",
+            "altText": "Argentina"
+          },
+          "imageUrl": "https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.200.200.medium.0.png",
+          "alternateImageUrl": "https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.200.200.medium.0.png",
+          "imageType": "image-logo",
+          "imageAltText": "Argentina",
+          "values": [
+            {
+              "id": "closing",
+              "odds": "+257",
+              "success": false
+            },
+            {
+              "id": "closing",
+              "odds": "U 2.5",
+              "success": true
+            }
+          ],
+          "template": "entity"
+        },
+        {
+          "text": "DRAW",
+          "fullText": "DRAW",
+          "values": [
+            {
+              "id": "closing",
+              "odds": "+201",
+              "success": false
+            }
+          ],
+          "template": "basic"
+        }
+      ],
+      "template": "segmented"
+    },
+    "eventStatus": 3,
+    "isTba": false,
+    "statusText": "FINAL",
+    "statusSubText": "ESP 1 \u00b7 ARG 0",
+    "moduleLinkText": "ODDS INFO",
+    "betSection": {
+      "name": "SPAIN vs ARGENTINA",
+      "bets": [
+        {
+          "template": "market",
+          "model": {
+            "subtitle": "TEAM TO WIN",
+            "mainText": "Spain won at +123 odds so a bet of $100 won $223 total",
+            "odds": [
+              {
+                "text": "+123",
+                "subText": "ESP",
+                "success": true
+              },
+              {
+                "text": "+257",
+                "subText": "ARG"
+              },
+              {
+                "text": "+201",
+                "subText": "DRAW"
+              }
+            ]
+          }
+        },
+        {
+          "template": "market",
+          "model": {
+            "subtitle": "TOTAL",
+            "mainText": "The over/under was 2.5 and the teams scored 1 points, so people who bet the under won",
+            "odds": [
+              {
+                "text": "+132",
+                "subText": "OVER 2.5"
+              },
+              {
+                "text": "-158",
+                "subText": "UNDER 2.5",
+                "success": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "entityLink": {
+      "webUrl": "/soccer/fifa-world-cup-men-spain-vs-argentina-jul-19-2026-game-boxscore-607934?tab=odds",
+      "contentUri": "soccer/wc/events/607934",
+      "contentType": "event",
+      "layout": {
+        "path": "/layouts?type=layout&subtype=soccerEventLayout",
+        "tokens": {
+          "id": "607934",
+          "eventUri": "soccer/wc/events/607934",
+          "homeUri": "soccer/all/teams/500",
+          "awayUri": "soccer/all/teams/513"
+        }
+      },
+      "analyticsSport": "soccer",
+      "tab": "odds",
+      "type": "entity"
+    },
+    "contentUri": "soccer/wc/events/607934",
+    "fairPlayMetaData": {
+      "parameters": {
+        "homeTeam": "Spain"
+      }
+    }
+  }
+}

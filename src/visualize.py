@@ -501,3 +501,183 @@ def plot_path_to_final_bracket(
         plt.savefig(save_path, dpi=150, bbox_inches="tight")
     if plt.get_backend() != "Agg":
         plt.show()
+
+
+def analysis_final_vs_avg(comparison: dict, save_path: str = None):
+    """Radar + barras: rendimiento del equipo en la final vs su promedio del torneo."""
+    metrics = ["possession", "shots", "shots_on_target", "xG", "goals"]
+    labels_display = ["Posesión %", "Tiros", "Tiros al arco", "xG", "Goles"]
+    avg_vals = [comparison.get(f"{m}_avg", 0) for m in metrics]
+    final_vals = [comparison.get(f"{m}_final", 0) for m in metrics]
+    max_vals = [max(a, f, 1) for a, f in zip(avg_vals, final_vals)]
+    avg_norm = [v / mx * 100 for v, mx in zip(avg_vals, max_vals)]
+    final_norm = [v / mx * 100 for v, mx in zip(final_vals, max_vals)]
+
+    angles = np.linspace(0, 2 * np.pi, len(metrics), endpoint=False).tolist()
+    angles += angles[:1]
+    avg_norm += avg_norm[:1]
+    final_norm += final_norm[:1]
+
+    fig, (ax1, ax2) = plt.subplots(
+        1, 2, figsize=(14, 6), subplot_kw={"projection": "polar"}
+    )
+    team = comparison.get("team", "")
+    opponent = comparison.get("final_opponent", "")
+
+    for ax, vals, label, color in [
+        (ax1, avg_norm, "Promedio torneo", "#3498db"),
+        (ax1, final_norm, "Final", "#e74c3c"),
+    ]:
+        ax.plot(angles, vals, "o-", linewidth=2, label=label, color=color)
+        ax.fill(angles, vals, alpha=0.1, color=color)
+    ax1.set_xticks(angles[:-1])
+    ax1.set_xticklabels(labels_display, fontsize=9)
+    ax1.set_title(
+        f"{team}: Final vs Promedio del Torneo", fontsize=13, fontweight="bold", pad=20
+    )
+    ax1.legend(loc="upper right", bbox_to_anchor=(1.3, 1.1))
+    ax1.set_ylim(0, 110)
+
+    x = np.arange(len(metrics))
+    width = 0.35
+    ax2.bar(
+        x - width / 2,
+        avg_vals,
+        width,
+        label="Promedio torneo",
+        color="#3498db",
+        alpha=0.8,
+    )
+    ax2.bar(
+        x + width / 2,
+        final_vals,
+        width,
+        label=f"Final vs {opponent}",
+        color="#e74c3c",
+        alpha=0.8,
+    )
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(labels_display, fontsize=9)
+    ax2.set_title("Valores Absolutos", fontsize=13, fontweight="bold")
+    ax2.legend(fontsize=9)
+    ax2.spines["top"].set_visible(False)
+    ax2.spines["right"].set_visible(False)
+    for i, (a, f) in enumerate(zip(avg_vals, final_vals)):
+        z = comparison.get(f"{metrics[i]}_z", 0)
+        ax2.annotate(
+            f"z={z:+.1f}",
+            (i + width / 2, f + max_vals[i] * 0.05),
+            ha="center",
+            fontsize=7,
+            color="#e74c3c",
+            fontweight="bold",
+        )
+    plt.suptitle(
+        f"Análisis: {team} en la Final vs su Rendimiento Histórico",
+        fontsize=14,
+        fontweight="bold",
+    )
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    if plt.get_backend() != "Agg":
+        plt.show()
+
+
+def analysis_xg_vs_actual(xg_table: pd.DataFrame, save_path: str = None):
+    """Barras agrupadas: xG vs goles reales para los semifinalistas."""
+    fig, ax = plt.subplots(figsize=(10, 6))
+    teams = xg_table["team"].tolist()
+    x = np.arange(len(teams))
+    width = 0.3
+    ax.bar(
+        x - width / 2, xg_table["xG"], width, label="xG", color="#3498db", alpha=0.85
+    )
+    ax.bar(
+        x + width / 2,
+        xg_table["goles"],
+        width,
+        label="Goles reales",
+        color="#2ecc71",
+        alpha=0.85,
+    )
+    for i, (_, row) in enumerate(xg_table.iterrows()):
+        diff = row["diff_goles_xg"]
+        color = "#e74c3c" if diff < 0 else "#2ecc71"
+        ax.annotate(
+            f"{diff:+.1f}",
+            (i, max(row["xG"], row["goles"]) + 0.5),
+            ha="center",
+            fontsize=10,
+            fontweight="bold",
+            color=color,
+        )
+    ax.set_xticks(x)
+    ax.set_xticklabels(teams, fontsize=11)
+    ax.set_ylabel("Total acumulado", fontsize=11)
+    ax.set_title(
+        "xG vs Goles Reales — Semifinalistas del Mundial 2026",
+        fontsize=13,
+        fontweight="bold",
+    )
+    ax.legend(fontsize=10)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    if plt.get_backend() != "Agg":
+        plt.show()
+
+
+def analysis_conversion_scatter(eff_df: pd.DataFrame, save_path: str = None):
+    """Scatter: xG/partido vs goles/partido. Muestra sobreperformance."""
+    fig, ax = plt.subplots(figsize=(10, 7))
+    x = eff_df["xG_por_partido"]
+    y = eff_df["goles_por_partido"]
+    colors = plt.cm.Set1(np.linspace(0, 1, len(eff_df)))
+    ax.scatter(
+        x, y, s=200, c=colors, alpha=0.8, edgecolors="black", linewidth=1, zorder=5
+    )
+    for i, (_, row) in enumerate(eff_df.iterrows()):
+        label = (
+            f"{row['team']}\n{row['eficiencia_xG']}x | {row['sobreperformance']:+.1f}"
+        )
+        ax.annotate(
+            label,
+            (row["xG_por_partido"], row["goles_por_partido"]),
+            textcoords="offset points",
+            xytext=(10, 10),
+            fontsize=8,
+            fontweight="bold",
+        )
+    max_val = max(x.max(), y.max()) * 1.15
+    diag = np.linspace(0, max_val, 100)
+    ax.plot(
+        diag, diag, "--", color="gray", alpha=0.5, label="Conversión perfecta (1:1)"
+    )
+    ax.fill_between(
+        diag, 0, diag, alpha=0.05, color="#2ecc71", label="Sobreperformance"
+    )
+    ax.fill_between(
+        diag, diag, max_val * 1.5, alpha=0.05, color="#e74c3c", label="Subperformance"
+    )
+    ax.set_xlim(0, max_val)
+    ax.set_ylim(0, max_val)
+    ax.set_xlabel("xG por partido", fontsize=11)
+    ax.set_ylabel("Goles por partido", fontsize=11)
+    ax.set_title(
+        "Eficiencia de Conversión: xG vs Goles Reales\nMundial 2026",
+        fontsize=13,
+        fontweight="bold",
+    )
+    ax.legend(fontsize=9)
+    ax.grid(alpha=0.3)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    if plt.get_backend() != "Agg":
+        plt.show()

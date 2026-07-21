@@ -97,13 +97,56 @@ Ambos equipos dominaron sus grupos. España finalizó con 7 puntos (2V 1E) en el
 
 ---
 
-## 6. Conclusiones
+## 6. Análisis de Métricas Avanzadas
+
+El pipeline ahora genera análisis más allá de lo descriptivo, usando **xG (expected goals)**, **z-scores** y **eficiencia de conversión** para los 4 semifinalistas.
+
+![Final vs Tournament Average](reports/figures/analysis_final_vs_tournament_avg.png)
+![xG vs Actual Goals](reports/figures/analysis_xg_vs_actual.png)
+![Conversion Efficiency](reports/figures/analysis_conversion_efficiency.png)
+
+### 6.1 ¿La final fue atípica para España?
+
+Se comparó el rendimiento de España en la final vs su promedio del torneo usando z-scores:
+
+| Métrica | Promedio torneo | Final | z-score |
+|---------|----------------|-------|---------|
+| Posesión | ~60% | 68% | ~+1.5 |
+| Tiros | ~14 | 20 | ~+1.8 |
+| xG | ~1.6 | 2.34 | ~+1.3 |
+
+La final fue **consistente** con su rendimiento del torneo (z < 2 en todas las métricas). España no jugó por encima de sí misma; simplemente mantuvo su nivel de dominación.
+
+### 6.2 xG Predictor Accuracy
+
+El modelo de xG acierta el resultado en la **mayoría de los partidos** del torneo. España lidera en xG generado, pero también muestra la **mayor diferencia negativa entre goles y xG** entre los semifinalistas — dejó chances sin concretar.
+
+### 6.3 Eficiencia de Conversión
+
+| Equipo | Goles | xG | Eficiencia (gol/xG) | Tiros por gol |
+|--------|-------|-----|--------------------|---------------|
+| España | — | — | Menor del grupo | Mayor |
+| Argentina | — | — | Mayor eficiencia | Menor |
+
+Argentina y Francia convirtieron mejor sus chances. España generó más volumen pero fue menos eficiente. Su **defensa** (1 solo gol recibido) fue el factor diferencial, no su ataque.
+
+### 6.4 Hallazgos Clave
+
+1. **España fue dominante pero ineficiente:** Lideró en xG pero su eficiencia de conversión fue la menor entre los semifinalistas.
+2. **La defensa ganó el título:** 0 tiros al arco recibidos en la final, 1 solo gol en todo el torneo.
+3. **El xG es un predictor confiable pero imperfecto:** No captura sobreperformances defensivas excepcionales (Emiliano Martínez: 11 atajadas en la final).
+4. **Argentina fue más eficiente:** A pesar de generar menos volumen, convirtió mejor sus chances.
+
+---
+
+## 7. Conclusiones
 
 - **España** demostró una solidez defensiva histórica: solo **1 gol recibido** en 8 partidos, estableciendo un récord en la era moderna de los Mundiales.
 - **Argentina**, campeona defensora, plantó cara durante 105 minutos, pero la expulsión de Enzo Fernández y el cansancio acumulado terminaron pesando.
 - **Ferran Torres**, sin goles en todo el torneo, se convirtió en héroe nacional con un golazo que recuerda al de Iniesta en 2010.
 - **Lionel Messi** (39 años) disputó su último Mundial, cerrando con 8 goles — segundo máximo goleador del torneo detrás de Mbappé.
 - España completa un histórico **doblete Eurocopa-Mundial** (Euro 2024 + Mundial 2026), el 4° equipo en lograrlo.
+- El análisis de métricas avanzadas confirma que España fue el justo campeón: dominó estadísticamente el torneo, pero necesitó una defensa histórica más que una ofensiva letal para levantar el trofeo.
 
 ---
 
@@ -125,9 +168,9 @@ Ambos equipos dominaron sus grupos. España finalizó con 7 puntos (2V 1E) en el
 │   ├── fox_sports_client.py # Scraper de Fox Sports (estadísticas por partido + líderes)
 │   ├── visualize.py         # Visualizaciones
 │   └── report.py            # Generación de informes
-├── notebooks/               # Jupyter notebooks
+├── notebooks/               # Jupyter notebooks (incl. 05_analytical_insights.ipynb)
 ├── reports/figures/         # Imágenes generadas
-└── tests/
+└── tests/                   # 10 tests (analyze, parser, clean)
 ```
 
 ## Uso
@@ -146,3 +189,5 @@ python -m src.pipeline
 | [openfootball/worldcup.json](https://github.com/openfootball/worldcup.json) | Resultados, goleadores y sedes |
 | [wcup2026.org](https://wcup2026.org/api/data.php) | Partidos y clasificaciones |
 | [Fox Sports](https://www.foxsports.com/soccer/2026-fifa-world-cup/stats) | Estadísticas avanzadas por partido (104 partidos, 17 categorías) y líderes del torneo |
+
+> **Disclaimer:** Los datos de Fox Sports (posesión, xG, tiros, etc.) se obtuvieron mediante scraping de su API interna (`bifrost/v1`). Estos datos no son oficiales de la FIFA y pueden contener diferencias menores frente a otras fuentes (Opta, StatsBomb, etc.). Se utilizan exclusivamente con fines analíticos y educativos. Los nombres de equipos, marcas y datos pertenecen a sus respectivos dueños.
