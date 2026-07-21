@@ -87,21 +87,38 @@ def generate_all_plots(
     )
     plt.close("all")
 
-    print("       Generating advanced stats comparison (Fox Sports real baselines)...")
+    print(
+        "       Generating advanced stats comparison (Fox Sports real per-match data)..."
+    )
     finalist_matches = matches_df[
         (matches_df["team_home"].isin(["Spain", "Argentina"]))
         | (matches_df["team_away"].isin(["Spain", "Argentina"]))
     ]
     real_baselines = load_real_team_stats()
-    if real_baselines:
-        print(
-            f"         Using Fox Sports real baselines: Spain POSS={real_baselines.get('Spain', {}).get('POSS', '?')}, CK={real_baselines.get('Spain', {}).get('CK', '?')}"
+    try:
+        from src.fox_sports_client import load_per_match_stats
+
+        real_match_stats = load_per_match_stats()
+    except Exception:
+        real_match_stats = None
+    if real_match_stats:
+        n_real = sum(
+            1
+            for m in real_match_stats.values()
+            if m["home_team"] in ("Spain", "Argentina")
+            or m["away_team"] in ("Spain", "Argentina")
         )
+        print(f"         Using {n_real} real match stats for Spain/Argentina matches")
     syn_stats = generate_synthetic_match_stats(
         finalist_matches,
         ["Spain", "Argentina"],
         real_baselines=real_baselines if real_baselines else None,
+        real_match_stats=real_match_stats,
     )
+    n_used = (
+        (syn_stats["source"] == "real").sum() if "source" in syn_stats.columns else 0
+    )
+    print(f"         Stats used: {n_used} real, {len(syn_stats) - n_used} synthetic")
     plot_match_stats_comparison(syn_stats, str(out / "advanced_stats_comparison.png"))
     plt.close("all")
 

@@ -4,6 +4,8 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
+from src.fox_sports_client import load_per_match_stats as _load_per_match_stats
+
 
 def build_tournament_stats(matches_df: pd.DataFrame) -> pd.DataFrame:
     home = matches_df[["team_home", "score_ft_home", "score_ft_away"]].rename(
@@ -162,6 +164,7 @@ def generate_synthetic_match_stats(
     matches_df: pd.DataFrame,
     teams: list[str],
     real_baselines: dict = None,
+    real_match_stats: dict = None,
 ) -> pd.DataFrame:  # type: ignore[arg-type]
     np.random.seed(42)
     rows = []
@@ -185,6 +188,25 @@ def generate_synthetic_match_stats(
                     ]
                 )
                 corners_per_game[team] = ck_total / max(n_matches, 1)
+
+    def _get_real(match, team):
+        if not real_match_stats:
+            return None
+        is_home = match["team_home"] == team
+        for mid, mdata in real_match_stats.items():
+            if (
+                mdata["home_team"] == match["team_home"]
+                and mdata["away_team"] == match["team_away"]
+            ):
+                side = "home" if is_home else "away"
+                return {
+                    k: float(v[side])
+                    if v[side].replace(".", "").replace("-", "").isdigit()
+                    else v[side]
+                    for k, v in mdata["stats"].items()
+                }
+        return None
+
     for _, m in matches_df.iterrows():
         for team in teams:
             if team not in (m["team_home"], m["team_away"]):
@@ -192,26 +214,37 @@ def generate_synthetic_match_stats(
             style = team_style.get(
                 team, {"poss_base": 50, "poss_std": 5, "shots_base": 10, "shots_std": 3}
             )
+            real = _get_real(m, team)
             possession = max(
                 35,
                 min(75, int(np.random.normal(style["poss_base"], style["poss_std"]))),
             )
+            if real and "possession" in real:
+                possession = int(real["possession"])
             shots = max(
                 3, int(np.random.normal(style["shots_base"], style["shots_std"]))
             )
+            if real and "total_shots" in real:
+                shots = int(real["total_shots"])
             shots_on_target = max(1, int(shots * np.random.uniform(0.3, 0.55)))
+            if real and "shots_on_goal" in real:
+                shots_on_target = int(real["shots_on_goal"])
             opponent = m["team_away"] if team == m["team_home"] else m["team_home"]
             goals = m["score_ft_home"] if team == m["team_home"] else m["score_ft_away"]
             goals_conceded = (
                 m["score_ft_away"] if team == m["team_home"] else m["score_ft_home"]
             )
-            if real_baselines:
+            if real and "corners" in real:
+                corners = int(real["corners"])
+            elif real_baselines:
                 tdata = real_baselines.get(team, {})
                 ck_per_game = corners_per_game.get(team, 4.5)
                 corners = max(0, int(np.random.normal(ck_per_game, 2)))
             else:
                 corners = max(0, int(possession / 15 + np.random.normal(0, 2)))
             fouls = max(3, int(20 - possession / 5 + np.random.normal(0, 3)))
+            if real and "fouls" in real:
+                fouls = int(real["fouls"])
             rows.append(
                 {
                     "team": team,
@@ -224,6 +257,7 @@ def generate_synthetic_match_stats(
                     "goals_conceded": goals_conceded,
                     "corners": corners,
                     "fouls": fouls,
+                    "source": "real" if real else "synthetic",
                 }
             )
     return pd.DataFrame(rows)

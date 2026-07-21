@@ -1,0 +1,7802 @@
+{
+  "647616": {
+    "home_team": "Mexico",
+    "away_team": "South Africa",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "61",
+        "away": "39"
+      },
+      "total_shots": {
+        "home": "16",
+        "away": "3"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "1.34",
+        "away": "0.12"
+      },
+      "chances_created": {
+        "home": "11",
+        "away": "2"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "84"
+      },
+      "crosses": {
+        "home": "15 (5)",
+        "away": "9 (1)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "3",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "18",
+        "away": "16"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  "647617": {
+    "home_team": "South Korea",
+    "away_team": "Czech Republic",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "62",
+        "away": "38"
+      },
+      "total_shots": {
+        "home": "15",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "7",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "2.27",
+        "away": "0.65"
+      },
+      "chances_created": {
+        "home": "14",
+        "away": "2"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "71"
+      },
+      "crosses": {
+        "home": "17 (6)",
+        "away": "15 (4)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "16"
+      },
+      "tackles": {
+        "home": "3",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "47",
+        "away": "25"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647618": {
+    "home_team": "Canada",
+    "away_team": "Bosnia & Herzegovina",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "60",
+        "away": "40"
+      },
+      "total_shots": {
+        "home": "13",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "1.94",
+        "away": "1.23"
+      },
+      "chances_created": {
+        "home": "11",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "79",
+        "away": "68"
+      },
+      "crosses": {
+        "home": "34 (6)",
+        "away": "10 (6)"
+      },
+      "corners": {
+        "home": "9",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "20"
+      },
+      "tackles": {
+        "home": "15",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "4",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "7"
+      },
+      "clearances": {
+        "home": "46",
+        "away": "73"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647619": {
+    "home_team": "USA",
+    "away_team": "Paraguay",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "63",
+        "away": "37"
+      },
+      "total_shots": {
+        "home": "17",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "6",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "1.45",
+        "away": "0.60"
+      },
+      "chances_created": {
+        "home": "11",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "74"
+      },
+      "crosses": {
+        "home": "29 (5)",
+        "away": "7 (1)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "13",
+        "away": "17"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "31",
+        "away": "46"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "5"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647621": {
+    "home_team": "Qatar",
+    "away_team": "Switzerland",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "30",
+        "away": "70"
+      },
+      "total_shots": {
+        "home": "5",
+        "away": "27"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "10"
+      },
+      "expected_goals": {
+        "home": "0.56",
+        "away": "3.47"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "21"
+      },
+      "passing_accuracy": {
+        "home": "74",
+        "away": "93"
+      },
+      "crosses": {
+        "home": "8 (1)",
+        "away": "40 (8)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "10"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "5"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "1"
+      },
+      "blocks": {
+        "home": "9",
+        "away": "0"
+      },
+      "clearances": {
+        "home": "30",
+        "away": "22"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647622": {
+    "home_team": "Brazil",
+    "away_team": "Morocco",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "54",
+        "away": "46"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "13"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "0.56",
+        "away": "1.37"
+      },
+      "chances_created": {
+        "home": "5",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "88"
+      },
+      "crosses": {
+        "home": "19 (5)",
+        "away": "15 (2)"
+      },
+      "corners": {
+        "home": "6",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "16",
+        "away": "14"
+      },
+      "tackles": {
+        "home": "12",
+        "away": "16"
+      },
+      "interceptions": {
+        "home": "8",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "6",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "32",
+        "away": "23"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647623": {
+    "home_team": "Haiti",
+    "away_team": "Scotland",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "50",
+        "away": "50"
+      },
+      "total_shots": {
+        "home": "13",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "0.71",
+        "away": "1.16"
+      },
+      "chances_created": {
+        "home": "7",
+        "away": "7"
+      },
+      "passing_accuracy": {
+        "home": "89",
+        "away": "82"
+      },
+      "crosses": {
+        "home": "29 (7)",
+        "away": "17 (6)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "23",
+        "away": "21"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "3"
+      },
+      "interceptions": {
+        "home": "2",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "33",
+        "away": "28"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647620": {
+    "home_team": "Australia",
+    "away_team": "Turkey",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "37",
+        "away": "63"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "28"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "7"
+      },
+      "expected_goals": {
+        "home": "0.84",
+        "away": "1.60"
+      },
+      "chances_created": {
+        "home": "7",
+        "away": "21"
+      },
+      "passing_accuracy": {
+        "home": "76",
+        "away": "92"
+      },
+      "crosses": {
+        "home": "15 (4)",
+        "away": "31 (4)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "8"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "4"
+      },
+      "tackles": {
+        "home": "3",
+        "away": "6"
+      },
+      "interceptions": {
+        "home": "3",
+        "away": "1"
+      },
+      "blocks": {
+        "home": "12",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "58",
+        "away": "43"
+      },
+      "keeper_saves": {
+        "home": "8",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647624": {
+    "home_team": "Germany",
+    "away_team": "Cura\u00e7ao",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "65",
+        "away": "35"
+      },
+      "total_shots": {
+        "home": "26",
+        "away": "7"
+      },
+      "shots_on_goal": {
+        "home": "11",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "3.60",
+        "away": "0.35"
+      },
+      "chances_created": {
+        "home": "23",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "89",
+        "away": "85"
+      },
+      "crosses": {
+        "home": "21 (7)",
+        "away": "9 (2)"
+      },
+      "corners": {
+        "home": "8",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "16",
+        "away": "10"
+      },
+      "tackles": {
+        "home": "12",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "9"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "9"
+      },
+      "clearances": {
+        "home": "18",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647625": {
+    "home_team": "Netherlands",
+    "away_team": "Japan",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "60",
+        "away": "40"
+      },
+      "total_shots": {
+        "home": "11",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "7",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "1.12",
+        "away": "0.67"
+      },
+      "chances_created": {
+        "home": "10",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "90",
+        "away": "88"
+      },
+      "crosses": {
+        "home": "21 (8)",
+        "away": "26 (6)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "7",
+        "away": "7"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "6"
+      },
+      "interceptions": {
+        "home": "2",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "0"
+      },
+      "clearances": {
+        "home": "36",
+        "away": "39"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "5"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647626": {
+    "home_team": "Ivory Coast",
+    "away_team": "Ecuador",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "49",
+        "away": "51"
+      },
+      "total_shots": {
+        "home": "16",
+        "away": "10"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "1.51",
+        "away": "0.52"
+      },
+      "chances_created": {
+        "home": "14",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "86",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "14 (4)",
+        "away": "16 (4)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "17"
+      },
+      "interceptions": {
+        "home": "2",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "40",
+        "away": "22"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647627": {
+    "home_team": "Sweden",
+    "away_team": "Tunisia",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "49",
+        "away": "51"
+      },
+      "total_shots": {
+        "home": "13",
+        "away": "5"
+      },
+      "shots_on_goal": {
+        "home": "8",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "1.51",
+        "away": "0.30"
+      },
+      "chances_created": {
+        "home": "11",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "82",
+        "away": "80"
+      },
+      "crosses": {
+        "home": "11 (3)",
+        "away": "12 (2)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "6"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "8"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "3",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "45",
+        "away": "23"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647628": {
+    "home_team": "Spain",
+    "away_team": "Cape Verde",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "74",
+        "away": "26"
+      },
+      "total_shots": {
+        "home": "23",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "8",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "1.55",
+        "away": "0.38"
+      },
+      "chances_created": {
+        "home": "16",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "93",
+        "away": "75"
+      },
+      "crosses": {
+        "home": "43 (7)",
+        "away": "4 (1)"
+      },
+      "corners": {
+        "home": "11",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "1"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "9",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "5",
+        "away": "52"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "8"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647629": {
+    "home_team": "Belgium",
+    "away_team": "Egypt",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "53",
+        "away": "47"
+      },
+      "total_shots": {
+        "home": "15",
+        "away": "14"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "0.83",
+        "away": "0.98"
+      },
+      "chances_created": {
+        "home": "10",
+        "away": "9"
+      },
+      "passing_accuracy": {
+        "home": "89",
+        "away": "83"
+      },
+      "crosses": {
+        "home": "17 (6)",
+        "away": "14 (2)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "7"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "15",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "12",
+        "away": "16"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "7",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "35",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647630": {
+    "home_team": "Saudi Arabia",
+    "away_team": "Uruguay",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "35",
+        "away": "65"
+      },
+      "total_shots": {
+        "home": "7",
+        "away": "27"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "10"
+      },
+      "expected_goals": {
+        "home": "1.00",
+        "away": "1.88"
+      },
+      "chances_created": {
+        "home": "3",
+        "away": "16"
+      },
+      "passing_accuracy": {
+        "home": "72",
+        "away": "92"
+      },
+      "crosses": {
+        "home": "9 (3)",
+        "away": "54 (16)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "14"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "6"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "6"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "2"
+      },
+      "interceptions": {
+        "home": "0",
+        "away": "10"
+      },
+      "blocks": {
+        "home": "8",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "47",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "6",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647631": {
+    "home_team": "Iran",
+    "away_team": "New Zealand",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "47",
+        "away": "53"
+      },
+      "total_shots": {
+        "home": "17",
+        "away": "13"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "8"
+      },
+      "expected_goals": {
+        "home": "1.46",
+        "away": "0.85"
+      },
+      "chances_created": {
+        "home": "12",
+        "away": "9"
+      },
+      "passing_accuracy": {
+        "home": "80",
+        "away": "86"
+      },
+      "crosses": {
+        "home": "22 (8)",
+        "away": "13 (1)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "8"
+      },
+      "tackles": {
+        "home": "14",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "9",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "39",
+        "away": "36"
+      },
+      "keeper_saves": {
+        "home": "6",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647633": {
+    "home_team": "France",
+    "away_team": "Senegal",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "54",
+        "away": "46"
+      },
+      "total_shots": {
+        "home": "11",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "8",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "1.90",
+        "away": "0.35"
+      },
+      "chances_created": {
+        "home": "9",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "9 (0)",
+        "away": "10 (2)"
+      },
+      "corners": {
+        "home": "6",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "5",
+        "away": "9"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "24",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "5"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647634": {
+    "home_team": "Iraq",
+    "away_team": "Norway",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "37",
+        "away": "63"
+      },
+      "total_shots": {
+        "home": "11",
+        "away": "12"
+      },
+      "shots_on_goal": {
+        "home": "1",
+        "away": "6"
+      },
+      "expected_goals": {
+        "home": "0.67",
+        "away": "2.21"
+      },
+      "chances_created": {
+        "home": "5",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "83",
+        "away": "90"
+      },
+      "crosses": {
+        "home": "15 (6)",
+        "away": "18 (7)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "5"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "1"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "30",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647635": {
+    "home_team": "Argentina",
+    "away_team": "Algeria",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "47",
+        "away": "53"
+      },
+      "total_shots": {
+        "home": "9",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "6",
+        "away": "0"
+      },
+      "expected_goals": {
+        "home": "1.13",
+        "away": "0.26"
+      },
+      "chances_created": {
+        "home": "6",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "90",
+        "away": "93"
+      },
+      "crosses": {
+        "home": "7 (3)",
+        "away": "11 (1)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "8"
+      },
+      "tackles": {
+        "home": "17",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "0"
+      },
+      "clearances": {
+        "home": "13",
+        "away": "15"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647632": {
+    "home_team": "Austria",
+    "away_team": "Jordan",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "62",
+        "away": "38"
+      },
+      "total_shots": {
+        "home": "9",
+        "away": "11"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "1.65",
+        "away": "0.96"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "7"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "78"
+      },
+      "crosses": {
+        "home": "21 (5)",
+        "away": "18 (4)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "6"
+      },
+      "tackles": {
+        "home": "9",
+        "away": "5"
+      },
+      "interceptions": {
+        "home": "8",
+        "away": "9"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "32",
+        "away": "58"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647636": {
+    "home_team": "Portugal",
+    "away_team": "DR Congo",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "75",
+        "away": "25"
+      },
+      "total_shots": {
+        "home": "9",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "0.75",
+        "away": "0.54"
+      },
+      "chances_created": {
+        "home": "6",
+        "away": "7"
+      },
+      "passing_accuracy": {
+        "home": "94",
+        "away": "81"
+      },
+      "crosses": {
+        "home": "26 (6)",
+        "away": "15 (4)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "9"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "22",
+        "away": "35"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647637": {
+    "home_team": "England",
+    "away_team": "Croatia",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "54",
+        "away": "46"
+      },
+      "total_shots": {
+        "home": "20",
+        "away": "11"
+      },
+      "shots_on_goal": {
+        "home": "12",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "2.88",
+        "away": "0.92"
+      },
+      "chances_created": {
+        "home": "14",
+        "away": "7"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "17 (6)",
+        "away": "16 (4)"
+      },
+      "corners": {
+        "home": "8",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "7"
+      },
+      "interceptions": {
+        "home": "10",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "8"
+      },
+      "clearances": {
+        "home": "26",
+        "away": "20"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "7"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647638": {
+    "home_team": "Ghana",
+    "away_team": "Panama",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "37",
+        "away": "63"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "11"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "1.13",
+        "away": "0.75"
+      },
+      "chances_created": {
+        "home": "7",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "84",
+        "away": "89"
+      },
+      "crosses": {
+        "home": "19 (8)",
+        "away": "26 (4)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "4",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "9",
+        "away": "9"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "40",
+        "away": "33"
+      },
+      "keeper_saves": {
+        "home": "4",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647639": {
+    "home_team": "Uzbekistan",
+    "away_team": "Colombia",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "33",
+        "away": "67"
+      },
+      "total_shots": {
+        "home": "7",
+        "away": "15"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "6"
+      },
+      "expected_goals": {
+        "home": "0.75",
+        "away": "1.03"
+      },
+      "chances_created": {
+        "home": "2",
+        "away": "9"
+      },
+      "passing_accuracy": {
+        "home": "80",
+        "away": "88"
+      },
+      "crosses": {
+        "home": "14 (3)",
+        "away": "18 (7)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "5"
+      },
+      "interceptions": {
+        "home": "4",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "40",
+        "away": "32"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647640": {
+    "home_team": "Czech Republic",
+    "away_team": "South Africa",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "39",
+        "away": "61"
+      },
+      "total_shots": {
+        "home": "12",
+        "away": "17"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "0.82",
+        "away": "1.48"
+      },
+      "chances_created": {
+        "home": "9",
+        "away": "11"
+      },
+      "passing_accuracy": {
+        "home": "82",
+        "away": "90"
+      },
+      "crosses": {
+        "home": "19 (7)",
+        "away": "16 (2)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "10"
+      },
+      "tackles": {
+        "home": "4",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "8",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "39",
+        "away": "32"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647641": {
+    "home_team": "Switzerland",
+    "away_team": "Bosnia & Herzegovina",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "62",
+        "away": "38"
+      },
+      "total_shots": {
+        "home": "13",
+        "away": "4"
+      },
+      "shots_on_goal": {
+        "home": "8",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "2.26",
+        "away": "0.25"
+      },
+      "chances_created": {
+        "home": "9",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "92",
+        "away": "85"
+      },
+      "crosses": {
+        "home": "30 (3)",
+        "away": "13 (1)"
+      },
+      "corners": {
+        "home": "7",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "7",
+        "away": "17"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "2",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "29",
+        "away": "58"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  "647642": {
+    "home_team": "Canada",
+    "away_team": "Qatar",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "78",
+        "away": "22"
+      },
+      "total_shots": {
+        "home": "31",
+        "away": "2"
+      },
+      "shots_on_goal": {
+        "home": "10",
+        "away": "0"
+      },
+      "expected_goals": {
+        "home": "3.35",
+        "away": "0.19"
+      },
+      "chances_created": {
+        "home": "17",
+        "away": "1"
+      },
+      "passing_accuracy": {
+        "home": "94",
+        "away": "69"
+      },
+      "crosses": {
+        "home": "65 (14)",
+        "away": "2 (1)"
+      },
+      "corners": {
+        "home": "19",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "10"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "2",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "15"
+      },
+      "clearances": {
+        "home": "6",
+        "away": "51"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  "647643": {
+    "home_team": "Mexico",
+    "away_team": "South Korea",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "43",
+        "away": "57"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "0.62",
+        "away": "0.53"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "82",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "3 (2)",
+        "away": "9 (5)"
+      },
+      "corners": {
+        "home": "0",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "6"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "7"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "5"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "28",
+        "away": "28"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647645": {
+    "home_team": "USA",
+    "away_team": "Australia",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "63",
+        "away": "37"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "5"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "0.55",
+        "away": "0.40"
+      },
+      "chances_created": {
+        "home": "6",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "87",
+        "away": "78"
+      },
+      "crosses": {
+        "home": "20 (3)",
+        "away": "21 (2)"
+      },
+      "corners": {
+        "home": "7",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "16"
+      },
+      "tackles": {
+        "home": "13",
+        "away": "15"
+      },
+      "interceptions": {
+        "home": "12",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "37",
+        "away": "47"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "4"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647646": {
+    "home_team": "Scotland",
+    "away_team": "Morocco",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "40",
+        "away": "60"
+      },
+      "total_shots": {
+        "home": "6",
+        "away": "12"
+      },
+      "shots_on_goal": {
+        "home": "0",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "0.95",
+        "away": "1.12"
+      },
+      "chances_created": {
+        "home": "5",
+        "away": "9"
+      },
+      "passing_accuracy": {
+        "home": "87",
+        "away": "92"
+      },
+      "crosses": {
+        "home": "15 (3)",
+        "away": "14 (3)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "8"
+      },
+      "tackles": {
+        "home": "13",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "8",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "24",
+        "away": "20"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647647": {
+    "home_team": "Brazil",
+    "away_team": "Haiti",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "57",
+        "away": "43"
+      },
+      "total_shots": {
+        "home": "9",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "1.57",
+        "away": "0.54"
+      },
+      "chances_created": {
+        "home": "5",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "90",
+        "away": "84"
+      },
+      "crosses": {
+        "home": "13 (3)",
+        "away": "14 (3)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "8",
+        "away": "4"
+      },
+      "fouls": {
+        "home": "13",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "9",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "10",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "23",
+        "away": "25"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647644": {
+    "home_team": "Turkey",
+    "away_team": "Paraguay",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "78",
+        "away": "22"
+      },
+      "total_shots": {
+        "home": "33",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "6",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "2.47",
+        "away": "0.41"
+      },
+      "chances_created": {
+        "home": "26",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "90",
+        "away": "59"
+      },
+      "crosses": {
+        "home": "42 (7)",
+        "away": "8 (3)"
+      },
+      "corners": {
+        "home": "12",
+        "away": "0"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "13",
+        "away": "14"
+      },
+      "interceptions": {
+        "home": "2",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "12"
+      },
+      "clearances": {
+        "home": "31",
+        "away": "63"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "5"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  "647648": {
+    "home_team": "Netherlands",
+    "away_team": "Sweden",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "52",
+        "away": "48"
+      },
+      "total_shots": {
+        "home": "12",
+        "away": "21"
+      },
+      "shots_on_goal": {
+        "home": "7",
+        "away": "10"
+      },
+      "expected_goals": {
+        "home": "2.19",
+        "away": "1.23"
+      },
+      "chances_created": {
+        "home": "11",
+        "away": "11"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "85"
+      },
+      "crosses": {
+        "home": "18 (4)",
+        "away": "23 (3)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "12"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "8",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "31",
+        "away": "33"
+      },
+      "keeper_saves": {
+        "home": "7",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647649": {
+    "home_team": "Germany",
+    "away_team": "Ivory Coast",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "55",
+        "away": "45"
+      },
+      "total_shots": {
+        "home": "16",
+        "away": "9"
+      },
+      "shots_on_goal": {
+        "home": "7",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "2.40",
+        "away": "0.80"
+      },
+      "chances_created": {
+        "home": "14",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "86"
+      },
+      "crosses": {
+        "home": "24 (5)",
+        "away": "13 (3)"
+      },
+      "corners": {
+        "home": "8",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "5",
+        "away": "7"
+      },
+      "tackles": {
+        "home": "13",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "4",
+        "away": "10"
+      },
+      "blocks": {
+        "home": "5",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "19",
+        "away": "38"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "5"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647650": {
+    "home_team": "Ecuador",
+    "away_team": "Cura\u00e7ao",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "75",
+        "away": "25"
+      },
+      "total_shots": {
+        "home": "26",
+        "away": "10"
+      },
+      "shots_on_goal": {
+        "home": "15",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "2.16",
+        "away": "0.45"
+      },
+      "chances_created": {
+        "home": "20",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "92",
+        "away": "69"
+      },
+      "crosses": {
+        "home": "37 (12)",
+        "away": "2 (0)"
+      },
+      "corners": {
+        "home": "9",
+        "away": "0"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "7",
+        "away": "10"
+      },
+      "tackles": {
+        "home": "12",
+        "away": "13"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "18",
+        "away": "31"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "13"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "5"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647651": {
+    "home_team": "Tunisia",
+    "away_team": "Japan",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "43",
+        "away": "57"
+      },
+      "total_shots": {
+        "home": "3",
+        "away": "10"
+      },
+      "shots_on_goal": {
+        "home": "1",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "0.18",
+        "away": "1.73"
+      },
+      "chances_created": {
+        "home": "2",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "83",
+        "away": "92"
+      },
+      "crosses": {
+        "home": "12 (1)",
+        "away": "15 (3)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "8",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "16",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "14",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "29",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647652": {
+    "home_team": "Spain",
+    "away_team": "Saudi Arabia",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "65",
+        "away": "35"
+      },
+      "total_shots": {
+        "home": "21",
+        "away": "3"
+      },
+      "shots_on_goal": {
+        "home": "9",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "2.32",
+        "away": "0.09"
+      },
+      "chances_created": {
+        "home": "13",
+        "away": "2"
+      },
+      "passing_accuracy": {
+        "home": "93",
+        "away": "77"
+      },
+      "crosses": {
+        "home": "33 (9)",
+        "away": "7 (0)"
+      },
+      "corners": {
+        "home": "6",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "2"
+      },
+      "tackles": {
+        "home": "5",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "10",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "21",
+        "away": "37"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647653": {
+    "home_team": "Belgium",
+    "away_team": "Iran",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "68",
+        "away": "32"
+      },
+      "total_shots": {
+        "home": "22",
+        "away": "7"
+      },
+      "shots_on_goal": {
+        "home": "7",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "1.39",
+        "away": "0.72"
+      },
+      "chances_created": {
+        "home": "14",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "73"
+      },
+      "crosses": {
+        "home": "38 (6)",
+        "away": "9 (2)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "4"
+      },
+      "fouls": {
+        "home": "7",
+        "away": "9"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "1",
+        "away": "9"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "7"
+      },
+      "clearances": {
+        "home": "16",
+        "away": "60"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  "647654": {
+    "home_team": "Uruguay",
+    "away_team": "Cape Verde",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "66",
+        "away": "34"
+      },
+      "total_shots": {
+        "home": "16",
+        "away": "11"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "1.92",
+        "away": "0.70"
+      },
+      "chances_created": {
+        "home": "8",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "74"
+      },
+      "crosses": {
+        "home": "37 (6)",
+        "away": "7 (0)"
+      },
+      "corners": {
+        "home": "11",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "4"
+      },
+      "tackles": {
+        "home": "12",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "10"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "23",
+        "away": "50"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647655": {
+    "home_team": "New Zealand",
+    "away_team": "Egypt",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "44",
+        "away": "56"
+      },
+      "total_shots": {
+        "home": "10",
+        "away": "19"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "7"
+      },
+      "expected_goals": {
+        "home": "1.30",
+        "away": "1.90"
+      },
+      "chances_created": {
+        "home": "8",
+        "away": "16"
+      },
+      "passing_accuracy": {
+        "home": "82",
+        "away": "89"
+      },
+      "crosses": {
+        "home": "16 (4)",
+        "away": "22 (6)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "8"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "13"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "12"
+      },
+      "blocks": {
+        "home": "5",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "26",
+        "away": "32"
+      },
+      "keeper_saves": {
+        "home": "4",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647656": {
+    "home_team": "Argentina",
+    "away_team": "Austria",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "54",
+        "away": "46"
+      },
+      "total_shots": {
+        "home": "12",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "1.82",
+        "away": "0.51"
+      },
+      "chances_created": {
+        "home": "5",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "6 (1)",
+        "away": "19 (2)"
+      },
+      "corners": {
+        "home": "1",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "13",
+        "away": "12"
+      },
+      "tackles": {
+        "home": "9",
+        "away": "6"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "30",
+        "away": "18"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647657": {
+    "home_team": "France",
+    "away_team": "Iraq",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "56",
+        "away": "44"
+      },
+      "total_shots": {
+        "home": "19",
+        "away": "4"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "0"
+      },
+      "expected_goals": {
+        "home": "2.06",
+        "away": "0.17"
+      },
+      "chances_created": {
+        "home": "10",
+        "away": "2"
+      },
+      "passing_accuracy": {
+        "home": "92",
+        "away": "86"
+      },
+      "crosses": {
+        "home": "19 (4)",
+        "away": "11 (3)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "8",
+        "away": "4"
+      },
+      "tackles": {
+        "home": "14",
+        "away": "14"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "17",
+        "away": "32"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647658": {
+    "home_team": "Norway",
+    "away_team": "Senegal",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "43",
+        "away": "57"
+      },
+      "total_shots": {
+        "home": "12",
+        "away": "17"
+      },
+      "shots_on_goal": {
+        "home": "6",
+        "away": "6"
+      },
+      "expected_goals": {
+        "home": "1.90",
+        "away": "1.59"
+      },
+      "chances_created": {
+        "home": "8",
+        "away": "12"
+      },
+      "passing_accuracy": {
+        "home": "80",
+        "away": "90"
+      },
+      "crosses": {
+        "home": "12 (5)",
+        "away": "28 (9)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "4"
+      },
+      "fouls": {
+        "home": "13",
+        "away": "5"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "5",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "32",
+        "away": "29"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647659": {
+    "home_team": "Jordan",
+    "away_team": "Algeria",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "25",
+        "away": "75"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "17"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "8"
+      },
+      "expected_goals": {
+        "home": "0.56",
+        "away": "2.19"
+      },
+      "chances_created": {
+        "home": "5",
+        "away": "11"
+      },
+      "passing_accuracy": {
+        "home": "73",
+        "away": "91"
+      },
+      "crosses": {
+        "home": "7 (3)",
+        "away": "24 (6)"
+      },
+      "corners": {
+        "home": "1",
+        "away": "10"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "6"
+      },
+      "tackles": {
+        "home": "18",
+        "away": "17"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "0"
+      },
+      "clearances": {
+        "home": "41",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "5",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647660": {
+    "home_team": "Portugal",
+    "away_team": "Uzbekistan",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "66",
+        "away": "34"
+      },
+      "total_shots": {
+        "home": "16",
+        "away": "7"
+      },
+      "shots_on_goal": {
+        "home": "9",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "1.80",
+        "away": "0.46"
+      },
+      "chances_created": {
+        "home": "8",
+        "away": "7"
+      },
+      "passing_accuracy": {
+        "home": "93",
+        "away": "78"
+      },
+      "crosses": {
+        "home": "25 (5)",
+        "away": "7 (0)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "13",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "15",
+        "away": "32"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647661": {
+    "home_team": "England",
+    "away_team": "Ghana",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "78",
+        "away": "22"
+      },
+      "total_shots": {
+        "home": "19",
+        "away": "2"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "1.28",
+        "away": "0.00"
+      },
+      "chances_created": {
+        "home": "12",
+        "away": "0"
+      },
+      "passing_accuracy": {
+        "home": "95",
+        "away": "70"
+      },
+      "crosses": {
+        "home": "32 (5)",
+        "away": "5 (0)"
+      },
+      "corners": {
+        "home": "9",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "24"
+      },
+      "tackles": {
+        "home": "9",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "1",
+        "away": "2"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "8"
+      },
+      "clearances": {
+        "home": "12",
+        "away": "43"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647662": {
+    "home_team": "Panama",
+    "away_team": "Croatia",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "42",
+        "away": "58"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "0.38",
+        "away": "0.94"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "83",
+        "away": "84"
+      },
+      "crosses": {
+        "home": "29 (4)",
+        "away": "20 (6)"
+      },
+      "corners": {
+        "home": "7",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "19",
+        "away": "12"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "0",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "30",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647663": {
+    "home_team": "Colombia",
+    "away_team": "DR Congo",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "66",
+        "away": "34"
+      },
+      "total_shots": {
+        "home": "20",
+        "away": "7"
+      },
+      "shots_on_goal": {
+        "home": "9",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "1.20",
+        "away": "0.36"
+      },
+      "chances_created": {
+        "home": "11",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "89",
+        "away": "77"
+      },
+      "crosses": {
+        "home": "18 (6)",
+        "away": "18 (6)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "7",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "17"
+      },
+      "tackles": {
+        "home": "4",
+        "away": "7"
+      },
+      "interceptions": {
+        "home": "2",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "6"
+      },
+      "clearances": {
+        "home": "25",
+        "away": "21"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "8"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647664": {
+    "home_team": "Switzerland",
+    "away_team": "Canada",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "55",
+        "away": "45"
+      },
+      "total_shots": {
+        "home": "6",
+        "away": "13"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "7"
+      },
+      "expected_goals": {
+        "home": "0.50",
+        "away": "1.56"
+      },
+      "chances_created": {
+        "home": "3",
+        "away": "11"
+      },
+      "passing_accuracy": {
+        "home": "85",
+        "away": "80"
+      },
+      "crosses": {
+        "home": "9 (1)",
+        "away": "27 (8)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "7"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "19",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "11"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "52",
+        "away": "24"
+      },
+      "keeper_saves": {
+        "home": "6",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647665": {
+    "home_team": "Bosnia & Herzegovina",
+    "away_team": "Qatar",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "55",
+        "away": "45"
+      },
+      "total_shots": {
+        "home": "15",
+        "away": "9"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "0.84",
+        "away": "0.84"
+      },
+      "chances_created": {
+        "home": "9",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "88"
+      },
+      "crosses": {
+        "home": "25 (4)",
+        "away": "17 (5)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "14"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "4"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "32",
+        "away": "24"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647666": {
+    "home_team": "Scotland",
+    "away_team": "Brazil",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "46",
+        "away": "54"
+      },
+      "total_shots": {
+        "home": "11",
+        "away": "21"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "8"
+      },
+      "expected_goals": {
+        "home": "0.89",
+        "away": "3.12"
+      },
+      "chances_created": {
+        "home": "6",
+        "away": "16"
+      },
+      "passing_accuracy": {
+        "home": "89",
+        "away": "93"
+      },
+      "crosses": {
+        "home": "26 (10)",
+        "away": "15 (4)"
+      },
+      "corners": {
+        "home": "7",
+        "away": "6"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "3",
+        "away": "13"
+      },
+      "interceptions": {
+        "home": "3",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "7",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "21",
+        "away": "23"
+      },
+      "keeper_saves": {
+        "home": "5",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647667": {
+    "home_team": "Morocco",
+    "away_team": "Haiti",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "69",
+        "away": "31"
+      },
+      "total_shots": {
+        "home": "19",
+        "away": "7"
+      },
+      "shots_on_goal": {
+        "home": "12",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "2.13",
+        "away": "0.33"
+      },
+      "chances_created": {
+        "home": "10",
+        "away": "2"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "83"
+      },
+      "crosses": {
+        "home": "34 (13)",
+        "away": "4 (3)"
+      },
+      "corners": {
+        "home": "9",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "5",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "18"
+      },
+      "tackles": {
+        "home": "12",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "19",
+        "away": "42"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "7"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647668": {
+    "home_team": "Czech Republic",
+    "away_team": "Mexico",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "51",
+        "away": "49"
+      },
+      "total_shots": {
+        "home": "12",
+        "away": "11"
+      },
+      "shots_on_goal": {
+        "home": "1",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "0.74",
+        "away": "1.62"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "85",
+        "away": "89"
+      },
+      "crosses": {
+        "home": "22 (2)",
+        "away": "14 (1)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "7"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "9"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "27",
+        "away": "44"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647669": {
+    "home_team": "South Africa",
+    "away_team": "South Korea",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "31",
+        "away": "69"
+      },
+      "total_shots": {
+        "home": "14",
+        "away": "7"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "0.92",
+        "away": "0.84"
+      },
+      "chances_created": {
+        "home": "9",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "82",
+        "away": "92"
+      },
+      "crosses": {
+        "home": "11 (3)",
+        "away": "45 (9)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "6"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "7",
+        "away": "9"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "9",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "44",
+        "away": "26"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647670": {
+    "home_team": "Ecuador",
+    "away_team": "Germany",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "39",
+        "away": "61"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "11"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "1.54",
+        "away": "0.67"
+      },
+      "chances_created": {
+        "home": "7",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "87",
+        "away": "89"
+      },
+      "crosses": {
+        "home": "14 (2)",
+        "away": "15 (4)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "15",
+        "away": "10"
+      },
+      "tackles": {
+        "home": "14",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "10",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "5",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "49",
+        "away": "16"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647671": {
+    "home_team": "Cura\u00e7ao",
+    "away_team": "Ivory Coast",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "38",
+        "away": "62"
+      },
+      "total_shots": {
+        "home": "10",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "0.45",
+        "away": "1.11"
+      },
+      "chances_created": {
+        "home": "8",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "86",
+        "away": "90"
+      },
+      "crosses": {
+        "home": "17 (4)",
+        "away": "15 (3)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "6"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "6"
+      },
+      "tackles": {
+        "home": "9",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "17",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "32",
+        "away": "26"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647672": {
+    "home_team": "Tunisia",
+    "away_team": "Netherlands",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "29",
+        "away": "71"
+      },
+      "total_shots": {
+        "home": "10",
+        "away": "19"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "6"
+      },
+      "expected_goals": {
+        "home": "0.61",
+        "away": "1.65"
+      },
+      "chances_created": {
+        "home": "6",
+        "away": "12"
+      },
+      "passing_accuracy": {
+        "home": "81",
+        "away": "93"
+      },
+      "crosses": {
+        "home": "12 (4)",
+        "away": "33 (10)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "6"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "10"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "5"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "7",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "48",
+        "away": "16"
+      },
+      "keeper_saves": {
+        "home": "4",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647673": {
+    "home_team": "Japan",
+    "away_team": "Sweden",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "51",
+        "away": "49"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "10"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "1.04",
+        "away": "0.70"
+      },
+      "chances_created": {
+        "home": "8",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "81"
+      },
+      "crosses": {
+        "home": "16 (5)",
+        "away": "24 (6)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "8"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "20",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "16",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "49",
+        "away": "25"
+      },
+      "keeper_saves": {
+        "home": "4",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647674": {
+    "home_team": "Turkey",
+    "away_team": "USA",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "47",
+        "away": "53"
+      },
+      "total_shots": {
+        "home": "10",
+        "away": "19"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "7"
+      },
+      "expected_goals": {
+        "home": "2.16",
+        "away": "1.80"
+      },
+      "chances_created": {
+        "home": "6",
+        "away": "9"
+      },
+      "passing_accuracy": {
+        "home": "82",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "13 (2)",
+        "away": "22 (7)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "9"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "5"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "22",
+        "away": "6"
+      },
+      "interceptions": {
+        "home": "9",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "7",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "42",
+        "away": "38"
+      },
+      "keeper_saves": {
+        "home": "5",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647675": {
+    "home_team": "Paraguay",
+    "away_team": "Australia",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "44",
+        "away": "56"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "12"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "0.42",
+        "away": "0.85"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "11"
+      },
+      "passing_accuracy": {
+        "home": "85",
+        "away": "82"
+      },
+      "crosses": {
+        "home": "8 (0)",
+        "away": "13 (2)"
+      },
+      "corners": {
+        "home": "1",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "6"
+      },
+      "tackles": {
+        "home": "19",
+        "away": "14"
+      },
+      "interceptions": {
+        "home": "12",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "51",
+        "away": "23"
+      },
+      "keeper_saves": {
+        "home": "5",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647676": {
+    "home_team": "Norway",
+    "away_team": "France",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "43",
+        "away": "57"
+      },
+      "total_shots": {
+        "home": "10",
+        "away": "19"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "10"
+      },
+      "expected_goals": {
+        "home": "1.42",
+        "away": "1.12"
+      },
+      "chances_created": {
+        "home": "5",
+        "away": "14"
+      },
+      "passing_accuracy": {
+        "home": "83",
+        "away": "90"
+      },
+      "crosses": {
+        "home": "10 (3)",
+        "away": "15 (4)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "9"
+      },
+      "tackles": {
+        "home": "13",
+        "away": "18"
+      },
+      "interceptions": {
+        "home": "9",
+        "away": "11"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "18",
+        "away": "21"
+      },
+      "keeper_saves": {
+        "home": "4",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647677": {
+    "home_team": "Senegal",
+    "away_team": "Iraq",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "69",
+        "away": "31"
+      },
+      "total_shots": {
+        "home": "30",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "12",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "2.67",
+        "away": "0.28"
+      },
+      "chances_created": {
+        "home": "22",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "89",
+        "away": "70"
+      },
+      "crosses": {
+        "home": "31 (10)",
+        "away": "6 (0)"
+      },
+      "corners": {
+        "home": "12",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "10",
+        "away": "15"
+      },
+      "interceptions": {
+        "home": "3",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "7"
+      },
+      "clearances": {
+        "home": "18",
+        "away": "31"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "7"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  "647678": {
+    "home_team": "Uruguay",
+    "away_team": "Spain",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "32",
+        "away": "68"
+      },
+      "total_shots": {
+        "home": "6",
+        "away": "5"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "0.47",
+        "away": "0.53"
+      },
+      "chances_created": {
+        "home": "5",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "79",
+        "away": "92"
+      },
+      "crosses": {
+        "home": "17 (1)",
+        "away": "13 (4)"
+      },
+      "corners": {
+        "home": "1",
+        "away": "6"
+      },
+      "offsides": {
+        "home": "5",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "14"
+      },
+      "tackles": {
+        "home": "17",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "10",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "16",
+        "away": "22"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  "647679": {
+    "home_team": "Cape Verde",
+    "away_team": "Saudi Arabia",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "51",
+        "away": "49"
+      },
+      "total_shots": {
+        "home": "15",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "1.54",
+        "away": "0.37"
+      },
+      "chances_created": {
+        "home": "11",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "82"
+      },
+      "crosses": {
+        "home": "23 (6)",
+        "away": "12 (2)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "16"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "17"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "9"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "41",
+        "away": "34"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647680": {
+    "home_team": "New Zealand",
+    "away_team": "Belgium",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "45",
+        "away": "55"
+      },
+      "total_shots": {
+        "home": "6",
+        "away": "33"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "10"
+      },
+      "expected_goals": {
+        "home": "0.64",
+        "away": "3.57"
+      },
+      "chances_created": {
+        "home": "3",
+        "away": "17"
+      },
+      "passing_accuracy": {
+        "home": "87",
+        "away": "89"
+      },
+      "crosses": {
+        "home": "18 (2)",
+        "away": "20 (4)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "8"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "7"
+      },
+      "tackles": {
+        "home": "5",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "10"
+      },
+      "blocks": {
+        "home": "11",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "57",
+        "away": "25"
+      },
+      "keeper_saves": {
+        "home": "5",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647681": {
+    "home_team": "Egypt",
+    "away_team": "Iran",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "62",
+        "away": "38"
+      },
+      "total_shots": {
+        "home": "14",
+        "away": "12"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "1.25",
+        "away": "2.10"
+      },
+      "chances_created": {
+        "home": "7",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "79"
+      },
+      "crosses": {
+        "home": "20 (4)",
+        "away": "11 (3)"
+      },
+      "corners": {
+        "home": "8",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "16"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "14"
+      },
+      "interceptions": {
+        "home": "4",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "6"
+      },
+      "clearances": {
+        "home": "48",
+        "away": "41"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "4"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647682": {
+    "home_team": "Panama",
+    "away_team": "England",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "32",
+        "away": "68"
+      },
+      "total_shots": {
+        "home": "9",
+        "away": "17"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "8"
+      },
+      "expected_goals": {
+        "home": "0.52",
+        "away": "1.37"
+      },
+      "chances_created": {
+        "home": "6",
+        "away": "14"
+      },
+      "passing_accuracy": {
+        "home": "76",
+        "away": "90"
+      },
+      "crosses": {
+        "home": "10 (2)",
+        "away": "29 (6)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "7"
+      },
+      "offsides": {
+        "home": "4",
+        "away": "4"
+      },
+      "fouls": {
+        "home": "16",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "16"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "31",
+        "away": "40"
+      },
+      "keeper_saves": {
+        "home": "6",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647683": {
+    "home_team": "Croatia",
+    "away_team": "Ghana",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "53",
+        "away": "47"
+      },
+      "total_shots": {
+        "home": "8",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "0.53",
+        "away": "0.61"
+      },
+      "chances_created": {
+        "home": "8",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "92",
+        "away": "88"
+      },
+      "crosses": {
+        "home": "19 (4)",
+        "away": "11 (2)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "13"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "26",
+        "away": "21"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647684": {
+    "home_team": "Colombia",
+    "away_team": "Portugal",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "55",
+        "away": "45"
+      },
+      "total_shots": {
+        "home": "26",
+        "away": "13"
+      },
+      "shots_on_goal": {
+        "home": "6",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "1.38",
+        "away": "0.69"
+      },
+      "chances_created": {
+        "home": "18",
+        "away": "7"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "93"
+      },
+      "crosses": {
+        "home": "18 (7)",
+        "away": "16 (3)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "6"
+      },
+      "tackles": {
+        "home": "9",
+        "away": "5"
+      },
+      "interceptions": {
+        "home": "2",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "5",
+        "away": "10"
+      },
+      "clearances": {
+        "home": "21",
+        "away": "20"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "6"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647685": {
+    "home_team": "DR Congo",
+    "away_team": "Uzbekistan",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "58",
+        "away": "42"
+      },
+      "total_shots": {
+        "home": "19",
+        "away": "3"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "1.92",
+        "away": "0.23"
+      },
+      "chances_created": {
+        "home": "12",
+        "away": "2"
+      },
+      "passing_accuracy": {
+        "home": "87",
+        "away": "77"
+      },
+      "crosses": {
+        "home": "29 (9)",
+        "away": "15 (2)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "6",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "10",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "9"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "37",
+        "away": "46"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647686": {
+    "home_team": "Jordan",
+    "away_team": "Argentina",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "30",
+        "away": "70"
+      },
+      "total_shots": {
+        "home": "5",
+        "away": "13"
+      },
+      "shots_on_goal": {
+        "home": "1",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "0.49",
+        "away": "1.78"
+      },
+      "chances_created": {
+        "home": "2",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "82",
+        "away": "94"
+      },
+      "crosses": {
+        "home": "10 (4)",
+        "away": "11 (4)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "6"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "7"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "6"
+      },
+      "interceptions": {
+        "home": "11",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "14",
+        "away": "12"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "647687": {
+    "home_team": "Algeria",
+    "away_team": "Austria",
+    "round": "Group stage",
+    "stats": {
+      "possession": {
+        "home": "60",
+        "away": "40"
+      },
+      "total_shots": {
+        "home": "11",
+        "away": "11"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "1.38",
+        "away": "0.93"
+      },
+      "chances_created": {
+        "home": "10",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "95",
+        "away": "89"
+      },
+      "crosses": {
+        "home": "9 (2)",
+        "away": "13 (3)"
+      },
+      "corners": {
+        "home": "0",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "3",
+        "away": "7"
+      },
+      "tackles": {
+        "home": "5",
+        "away": "7"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "26",
+        "away": "28"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607903": {
+    "home_team": "South Africa",
+    "away_team": "Canada",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "58",
+        "away": "42"
+      },
+      "total_shots": {
+        "home": "6",
+        "away": "14"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "7"
+      },
+      "expected_goals": {
+        "home": "0.18",
+        "away": "1.43"
+      },
+      "chances_created": {
+        "home": "3",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "87",
+        "away": "83"
+      },
+      "crosses": {
+        "home": "7 (2)",
+        "away": "14 (6)"
+      },
+      "corners": {
+        "home": "1",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "15",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "17",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "43",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "5",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607906": {
+    "home_team": "Brazil",
+    "away_team": "Japan",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "60",
+        "away": "40"
+      },
+      "total_shots": {
+        "home": "20",
+        "away": "5"
+      },
+      "shots_on_goal": {
+        "home": "7",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "1.56",
+        "away": "0.26"
+      },
+      "chances_created": {
+        "home": "15",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "93",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "40 (11)",
+        "away": "13 (3)"
+      },
+      "corners": {
+        "home": "6",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "4",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "7"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "26",
+        "away": "51"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "5"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607904": {
+    "home_team": "Germany",
+    "away_team": "Paraguay",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "75",
+        "away": "25"
+      },
+      "total_shots": {
+        "home": "21",
+        "away": "7"
+      },
+      "shots_on_goal": {
+        "home": "7",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "1.48",
+        "away": "0.51"
+      },
+      "chances_created": {
+        "home": "10",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "93",
+        "away": "69"
+      },
+      "crosses": {
+        "home": "61 (11)",
+        "away": "21 (9)"
+      },
+      "corners": {
+        "home": "16",
+        "away": "6"
+      },
+      "offsides": {
+        "home": "4",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "18",
+        "away": "12"
+      },
+      "tackles": {
+        "home": "9",
+        "away": "26"
+      },
+      "interceptions": {
+        "home": "1",
+        "away": "13"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "7"
+      },
+      "clearances": {
+        "home": "25",
+        "away": "78"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "5"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607905": {
+    "home_team": "Netherlands",
+    "away_team": "Morocco",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "30",
+        "away": "70"
+      },
+      "total_shots": {
+        "home": "7",
+        "away": "12"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "6"
+      },
+      "expected_goals": {
+        "home": "0.41",
+        "away": "1.25"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "81",
+        "away": "92"
+      },
+      "crosses": {
+        "home": "14 (2)",
+        "away": "23 (4)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "8"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "18",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "3",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "31",
+        "away": "42"
+      },
+      "keeper_saves": {
+        "home": "5",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607908": {
+    "home_team": "Ivory Coast",
+    "away_team": "Norway",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "52",
+        "away": "48"
+      },
+      "total_shots": {
+        "home": "14",
+        "away": "9"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "1.15",
+        "away": "2.07"
+      },
+      "chances_created": {
+        "home": "7",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "86",
+        "away": "90"
+      },
+      "crosses": {
+        "home": "37 (10)",
+        "away": "15 (6)"
+      },
+      "corners": {
+        "home": "14",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "6",
+        "away": "7"
+      },
+      "tackles": {
+        "home": "19",
+        "away": "10"
+      },
+      "interceptions": {
+        "home": "8",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "23",
+        "away": "39"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607907": {
+    "home_team": "France",
+    "away_team": "Sweden",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "61",
+        "away": "39"
+      },
+      "total_shots": {
+        "home": "25",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "13",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "2.41",
+        "away": "0.51"
+      },
+      "chances_created": {
+        "home": "19",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "92",
+        "away": "82"
+      },
+      "crosses": {
+        "home": "23 (4)",
+        "away": "12 (4)"
+      },
+      "corners": {
+        "home": "9",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "10"
+      },
+      "tackles": {
+        "home": "9",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "4",
+        "away": "6"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "27",
+        "away": "40"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "10"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607909": {
+    "home_team": "Mexico",
+    "away_team": "Ecuador",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "43",
+        "away": "57"
+      },
+      "total_shots": {
+        "home": "15",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "1.63",
+        "away": "0.72"
+      },
+      "chances_created": {
+        "home": "14",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "84",
+        "away": "84"
+      },
+      "crosses": {
+        "home": "12 (6)",
+        "away": "32 (2)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "8"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "14"
+      },
+      "tackles": {
+        "home": "5",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "54",
+        "away": "18"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  "607912": {
+    "home_team": "England",
+    "away_team": "DR Congo",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "60",
+        "away": "40"
+      },
+      "total_shots": {
+        "home": "16",
+        "away": "7"
+      },
+      "shots_on_goal": {
+        "home": "8",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "2.16",
+        "away": "0.31"
+      },
+      "chances_created": {
+        "home": "13",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "93",
+        "away": "84"
+      },
+      "crosses": {
+        "home": "45 (10)",
+        "away": "18 (2)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "4"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "12"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "8",
+        "away": "1"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "17",
+        "away": "35"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "5"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607911": {
+    "home_team": "Belgium",
+    "away_team": "Senegal",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "53",
+        "away": "47"
+      },
+      "total_shots": {
+        "home": "21",
+        "away": "19"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "2.02",
+        "away": "2.51"
+      },
+      "chances_created": {
+        "home": "13",
+        "away": "9"
+      },
+      "passing_accuracy": {
+        "home": "89",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "29 (6)",
+        "away": "26 (6)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "22",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "6",
+        "away": "5"
+      },
+      "interceptions": {
+        "home": "10",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "6"
+      },
+      "clearances": {
+        "home": "60",
+        "away": "55"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607910": {
+    "home_team": "USA",
+    "away_team": "Bosnia & Herzegovina",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "48",
+        "away": "52"
+      },
+      "total_shots": {
+        "home": "9",
+        "away": "11"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "1.13",
+        "away": "0.53"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "87",
+        "away": "86"
+      },
+      "crosses": {
+        "home": "17 (4)",
+        "away": "14 (0)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "3"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "7",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "4",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "10",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "43",
+        "away": "36"
+      },
+      "keeper_saves": {
+        "home": "4",
+        "away": "0"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  "607915": {
+    "home_team": "Spain",
+    "away_team": "Austria",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "65",
+        "away": "35"
+      },
+      "total_shots": {
+        "home": "22",
+        "away": "5"
+      },
+      "shots_on_goal": {
+        "home": "10",
+        "away": "0"
+      },
+      "expected_goals": {
+        "home": "2.25",
+        "away": "0.45"
+      },
+      "chances_created": {
+        "home": "15",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "84"
+      },
+      "crosses": {
+        "home": "26 (8)",
+        "away": "12 (3)"
+      },
+      "corners": {
+        "home": "9",
+        "away": "0"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "5"
+      },
+      "fouls": {
+        "home": "8",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "16"
+      },
+      "interceptions": {
+        "home": "9",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "6"
+      },
+      "clearances": {
+        "home": "19",
+        "away": "31"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "6"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607914": {
+    "home_team": "Portugal",
+    "away_team": "Croatia",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "62",
+        "away": "38"
+      },
+      "total_shots": {
+        "home": "15",
+        "away": "13"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "7"
+      },
+      "expected_goals": {
+        "home": "2.42",
+        "away": "1.37"
+      },
+      "chances_created": {
+        "home": "9",
+        "away": "10"
+      },
+      "passing_accuracy": {
+        "home": "92",
+        "away": "85"
+      },
+      "crosses": {
+        "home": "21 (7)",
+        "away": "24 (8)"
+      },
+      "corners": {
+        "home": "9",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "4"
+      },
+      "fouls": {
+        "home": "6",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "8",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "1"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "29",
+        "away": "23"
+      },
+      "keeper_saves": {
+        "home": "6",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607913": {
+    "home_team": "Switzerland",
+    "away_team": "Algeria",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "45",
+        "away": "55"
+      },
+      "total_shots": {
+        "home": "11",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "2.32",
+        "away": "0.69"
+      },
+      "chances_created": {
+        "home": "7",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "86",
+        "away": "88"
+      },
+      "crosses": {
+        "home": "20 (5)",
+        "away": "13 (2)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "12"
+      },
+      "tackles": {
+        "home": "18",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "10"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "43",
+        "away": "30"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607916": {
+    "home_team": "Australia",
+    "away_team": "Egypt",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "42",
+        "away": "58"
+      },
+      "total_shots": {
+        "home": "15",
+        "away": "14"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "0.68",
+        "away": "1.30"
+      },
+      "chances_created": {
+        "home": "7",
+        "away": "10"
+      },
+      "passing_accuracy": {
+        "home": "84",
+        "away": "90"
+      },
+      "crosses": {
+        "home": "29 (9)",
+        "away": "28 (5)"
+      },
+      "corners": {
+        "home": "4",
+        "away": "7"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "14"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "6"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "6",
+        "away": "7"
+      },
+      "clearances": {
+        "home": "51",
+        "away": "66"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607918": {
+    "home_team": "Argentina",
+    "away_team": "Cape Verde",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "64",
+        "away": "36"
+      },
+      "total_shots": {
+        "home": "21",
+        "away": "15"
+      },
+      "shots_on_goal": {
+        "home": "10",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "1.96",
+        "away": "0.81"
+      },
+      "chances_created": {
+        "home": "9",
+        "away": "9"
+      },
+      "passing_accuracy": {
+        "home": "93",
+        "away": "88"
+      },
+      "crosses": {
+        "home": "19 (6)",
+        "away": "24 (6)"
+      },
+      "corners": {
+        "home": "8",
+        "away": "8"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "2"
+      },
+      "fouls": {
+        "home": "13",
+        "away": "12"
+      },
+      "tackles": {
+        "home": "16",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "7"
+      },
+      "blocks": {
+        "home": "5",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "25",
+        "away": "34"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "7"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607917": {
+    "home_team": "Colombia",
+    "away_team": "Ghana",
+    "round": "Round of 32",
+    "stats": {
+      "possession": {
+        "home": "62",
+        "away": "38"
+      },
+      "total_shots": {
+        "home": "20",
+        "away": "8"
+      },
+      "shots_on_goal": {
+        "home": "8",
+        "away": "0"
+      },
+      "expected_goals": {
+        "home": "2.24",
+        "away": "0.28"
+      },
+      "chances_created": {
+        "home": "14",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "85"
+      },
+      "crosses": {
+        "home": "14 (6)",
+        "away": "18 (1)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "10"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "4",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "5",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "36",
+        "away": "19"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "7"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607920": {
+    "home_team": "Canada",
+    "away_team": "Morocco",
+    "round": "Round of 16",
+    "stats": {
+      "possession": {
+        "home": "44",
+        "away": "56"
+      },
+      "total_shots": {
+        "home": "10",
+        "away": "5"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "4"
+      },
+      "expected_goals": {
+        "home": "0.84",
+        "away": "0.90"
+      },
+      "chances_created": {
+        "home": "8",
+        "away": "5"
+      },
+      "passing_accuracy": {
+        "home": "79",
+        "away": "85"
+      },
+      "crosses": {
+        "home": "34 (9)",
+        "away": "7 (2)"
+      },
+      "corners": {
+        "home": "11",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "23",
+        "away": "14"
+      },
+      "tackles": {
+        "home": "10",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "8",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "26",
+        "away": "51"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "4",
+        "away": "4"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607919": {
+    "home_team": "Paraguay",
+    "away_team": "France",
+    "round": "Round of 16",
+    "stats": {
+      "possession": {
+        "home": "24",
+        "away": "76"
+      },
+      "total_shots": {
+        "home": "5",
+        "away": "15"
+      },
+      "shots_on_goal": {
+        "home": "1",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "0.17",
+        "away": "1.29"
+      },
+      "chances_created": {
+        "home": "2",
+        "away": "10"
+      },
+      "passing_accuracy": {
+        "home": "57",
+        "away": "90"
+      },
+      "crosses": {
+        "home": "9 (0)",
+        "away": "24 (0)"
+      },
+      "corners": {
+        "home": "2",
+        "away": "12"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "12",
+        "away": "11"
+      },
+      "tackles": {
+        "home": "15",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "10",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "36",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607921": {
+    "home_team": "Brazil",
+    "away_team": "Norway",
+    "round": "Round of 16",
+    "stats": {
+      "possession": {
+        "home": "34",
+        "away": "66"
+      },
+      "total_shots": {
+        "home": "12",
+        "away": "9"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "2.30",
+        "away": "0.76"
+      },
+      "chances_created": {
+        "home": "9",
+        "away": "7"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "92"
+      },
+      "crosses": {
+        "home": "19 (1)",
+        "away": "15 (2)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "7",
+        "away": "4"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "11",
+        "away": "5"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "28",
+        "away": "28"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607922": {
+    "home_team": "Mexico",
+    "away_team": "England",
+    "round": "Round of 16",
+    "stats": {
+      "possession": {
+        "home": "66",
+        "away": "34"
+      },
+      "total_shots": {
+        "home": "23",
+        "away": "6"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "2.90",
+        "away": "2.32"
+      },
+      "chances_created": {
+        "home": "16",
+        "away": "4"
+      },
+      "passing_accuracy": {
+        "home": "93",
+        "away": "83"
+      },
+      "crosses": {
+        "home": "58 (15)",
+        "away": "7 (2)"
+      },
+      "corners": {
+        "home": "12",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "13",
+        "away": "6"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "2",
+        "away": "0"
+      },
+      "blocks": {
+        "home": "0",
+        "away": "10"
+      },
+      "clearances": {
+        "home": "18",
+        "away": "51"
+      },
+      "keeper_saves": {
+        "home": "2",
+        "away": "3"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "4"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  "607923": {
+    "home_team": "Portugal",
+    "away_team": "Spain",
+    "round": "Round of 16",
+    "stats": {
+      "possession": {
+        "home": "44",
+        "away": "56"
+      },
+      "total_shots": {
+        "home": "10",
+        "away": "15"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "6"
+      },
+      "expected_goals": {
+        "home": "1.10",
+        "away": "1.60"
+      },
+      "chances_created": {
+        "home": "9",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "85",
+        "away": "91"
+      },
+      "crosses": {
+        "home": "17 (5)",
+        "away": "20 (2)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "7"
+      },
+      "offsides": {
+        "home": "2",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "9",
+        "away": "13"
+      },
+      "tackles": {
+        "home": "10",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "11",
+        "away": "3"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "25",
+        "away": "28"
+      },
+      "keeper_saves": {
+        "home": "5",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607924": {
+    "home_team": "USA",
+    "away_team": "Belgium",
+    "round": "Round of 16",
+    "stats": {
+      "possession": {
+        "home": "57",
+        "away": "43"
+      },
+      "total_shots": {
+        "home": "6",
+        "away": "15"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "7"
+      },
+      "expected_goals": {
+        "home": "0.54",
+        "away": "1.97"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "11"
+      },
+      "passing_accuracy": {
+        "home": "89",
+        "away": "83"
+      },
+      "crosses": {
+        "home": "14 (3)",
+        "away": "18 (6)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "9"
+      },
+      "tackles": {
+        "home": "14",
+        "away": "15"
+      },
+      "interceptions": {
+        "home": "5",
+        "away": "9"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "0"
+      },
+      "clearances": {
+        "home": "35",
+        "away": "23"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607925": {
+    "home_team": "Argentina",
+    "away_team": "Egypt",
+    "round": "Round of 16",
+    "stats": {
+      "possession": {
+        "home": "58",
+        "away": "42"
+      },
+      "total_shots": {
+        "home": "17",
+        "away": "4"
+      },
+      "shots_on_goal": {
+        "home": "7",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "2.62",
+        "away": "0.59"
+      },
+      "chances_created": {
+        "home": "12",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "84"
+      },
+      "crosses": {
+        "home": "30 (8)",
+        "away": "8 (3)"
+      },
+      "corners": {
+        "home": "6",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "13",
+        "away": "10"
+      },
+      "tackles": {
+        "home": "15",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "13",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "20",
+        "away": "49"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "4"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607926": {
+    "home_team": "Switzerland",
+    "away_team": "Colombia",
+    "round": "Round of 16",
+    "stats": {
+      "possession": {
+        "home": "53",
+        "away": "47"
+      },
+      "total_shots": {
+        "home": "7",
+        "away": "15"
+      },
+      "shots_on_goal": {
+        "home": "2",
+        "away": "3"
+      },
+      "expected_goals": {
+        "home": "0.58",
+        "away": "1.17"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "11"
+      },
+      "passing_accuracy": {
+        "home": "89",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "14 (0)",
+        "away": "25 (4)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "7"
+      },
+      "offsides": {
+        "home": "5",
+        "away": "4"
+      },
+      "fouls": {
+        "home": "23",
+        "away": "21"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "8"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "12"
+      },
+      "blocks": {
+        "home": "4",
+        "away": "1"
+      },
+      "clearances": {
+        "home": "45",
+        "away": "36"
+      },
+      "keeper_saves": {
+        "home": "3",
+        "away": "2"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607927": {
+    "home_team": "France",
+    "away_team": "Morocco",
+    "round": "Quarter-final",
+    "stats": {
+      "possession": {
+        "home": "48",
+        "away": "52"
+      },
+      "total_shots": {
+        "home": "22",
+        "away": "5"
+      },
+      "shots_on_goal": {
+        "home": "9",
+        "away": "1"
+      },
+      "expected_goals": {
+        "home": "2.96",
+        "away": "0.31"
+      },
+      "chances_created": {
+        "home": "19",
+        "away": "3"
+      },
+      "passing_accuracy": {
+        "home": "92",
+        "away": "89"
+      },
+      "crosses": {
+        "home": "14 (5)",
+        "away": "16 (3)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "5"
+      },
+      "offsides": {
+        "home": "0",
+        "away": "0"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "12"
+      },
+      "tackles": {
+        "home": "12",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "11",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "26",
+        "away": "21"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "7"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607928": {
+    "home_team": "Spain",
+    "away_team": "Belgium",
+    "round": "Quarter-final",
+    "stats": {
+      "possession": {
+        "home": "68",
+        "away": "32"
+      },
+      "total_shots": {
+        "home": "18",
+        "away": "5"
+      },
+      "shots_on_goal": {
+        "home": "8",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "2.16",
+        "away": "0.48"
+      },
+      "chances_created": {
+        "home": "13",
+        "away": "2"
+      },
+      "passing_accuracy": {
+        "home": "92",
+        "away": "81"
+      },
+      "crosses": {
+        "home": "26 (5)",
+        "away": "12 (3)"
+      },
+      "corners": {
+        "home": "5",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "13",
+        "away": "18"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "6"
+      },
+      "interceptions": {
+        "home": "6",
+        "away": "11"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "5"
+      },
+      "clearances": {
+        "home": "19",
+        "away": "41"
+      },
+      "keeper_saves": {
+        "home": "1",
+        "away": "6"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "2"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607929": {
+    "home_team": "Norway",
+    "away_team": "England",
+    "round": "Quarter-final",
+    "stats": {
+      "possession": {
+        "home": "47",
+        "away": "53"
+      },
+      "total_shots": {
+        "home": "13",
+        "away": "14"
+      },
+      "shots_on_goal": {
+        "home": "5",
+        "away": "8"
+      },
+      "expected_goals": {
+        "home": "1.05",
+        "away": "1.04"
+      },
+      "chances_created": {
+        "home": "11",
+        "away": "6"
+      },
+      "passing_accuracy": {
+        "home": "87",
+        "away": "91"
+      },
+      "crosses": {
+        "home": "22 (3)",
+        "away": "23 (9)"
+      },
+      "corners": {
+        "home": "7",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "5"
+      },
+      "fouls": {
+        "home": "10",
+        "away": "8"
+      },
+      "tackles": {
+        "home": "12",
+        "away": "14"
+      },
+      "interceptions": {
+        "home": "8",
+        "away": "8"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "3"
+      },
+      "clearances": {
+        "home": "31",
+        "away": "44"
+      },
+      "keeper_saves": {
+        "home": "6",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607930": {
+    "home_team": "Argentina",
+    "away_team": "Switzerland",
+    "round": "Quarter-final",
+    "stats": {
+      "possession": {
+        "home": "59",
+        "away": "41"
+      },
+      "total_shots": {
+        "home": "23",
+        "away": "13"
+      },
+      "shots_on_goal": {
+        "home": "7",
+        "away": "5"
+      },
+      "expected_goals": {
+        "home": "2.55",
+        "away": "0.88"
+      },
+      "chances_created": {
+        "home": "15",
+        "away": "9"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "85"
+      },
+      "crosses": {
+        "home": "25 (9)",
+        "away": "21 (4)"
+      },
+      "corners": {
+        "home": "8",
+        "away": "2"
+      },
+      "offsides": {
+        "home": "4",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "14",
+        "away": "18"
+      },
+      "tackles": {
+        "home": "9",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "9",
+        "away": "4"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "7"
+      },
+      "clearances": {
+        "home": "42",
+        "away": "37"
+      },
+      "keeper_saves": {
+        "home": "4",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "3",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607931": {
+    "home_team": "France",
+    "away_team": "Spain",
+    "round": "Semi-final",
+    "stats": {
+      "possession": {
+        "home": "49",
+        "away": "51"
+      },
+      "total_shots": {
+        "home": "14",
+        "away": "10"
+      },
+      "shots_on_goal": {
+        "home": "4",
+        "away": "2"
+      },
+      "expected_goals": {
+        "home": "1.04",
+        "away": "1.80"
+      },
+      "chances_created": {
+        "home": "10",
+        "away": "8"
+      },
+      "passing_accuracy": {
+        "home": "88",
+        "away": "87"
+      },
+      "crosses": {
+        "home": "23 (1)",
+        "away": "10 (2)"
+      },
+      "corners": {
+        "home": "7",
+        "away": "1"
+      },
+      "offsides": {
+        "home": "4",
+        "away": "5"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "12"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "11"
+      },
+      "interceptions": {
+        "home": "9",
+        "away": "13"
+      },
+      "blocks": {
+        "home": "2",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "21",
+        "away": "16"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "4"
+      },
+      "yellow_cards": {
+        "home": "2",
+        "away": "1"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607932": {
+    "home_team": "England",
+    "away_team": "Argentina",
+    "round": "Semi-final",
+    "stats": {
+      "possession": {
+        "home": "36",
+        "away": "64"
+      },
+      "total_shots": {
+        "home": "6",
+        "away": "14"
+      },
+      "shots_on_goal": {
+        "home": "3",
+        "away": "6"
+      },
+      "expected_goals": {
+        "home": "0.63",
+        "away": "1.23"
+      },
+      "chances_created": {
+        "home": "4",
+        "away": "12"
+      },
+      "passing_accuracy": {
+        "home": "85",
+        "away": "93"
+      },
+      "crosses": {
+        "home": "15 (2)",
+        "away": "26 (6)"
+      },
+      "corners": {
+        "home": "1",
+        "away": "6"
+      },
+      "offsides": {
+        "home": "1",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "11",
+        "away": "15"
+      },
+      "tackles": {
+        "home": "7",
+        "away": "9"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "2"
+      },
+      "blocks": {
+        "home": "3",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "30",
+        "away": "41"
+      },
+      "keeper_saves": {
+        "home": "4",
+        "away": "1"
+      },
+      "yellow_cards": {
+        "home": "1",
+        "away": "3"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607933": {
+    "home_team": "France",
+    "away_team": "England",
+    "round": "Bronze Final",
+    "stats": {
+      "possession": {
+        "home": "45",
+        "away": "55"
+      },
+      "total_shots": {
+        "home": "18",
+        "away": "18"
+      },
+      "shots_on_goal": {
+        "home": "9",
+        "away": "10"
+      },
+      "expected_goals": {
+        "home": "2.67",
+        "away": "3.00"
+      },
+      "chances_created": {
+        "home": "15",
+        "away": "13"
+      },
+      "passing_accuracy": {
+        "home": "92",
+        "away": "93"
+      },
+      "crosses": {
+        "home": "9 (1)",
+        "away": "17 (4)"
+      },
+      "corners": {
+        "home": "3",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "3",
+        "away": "3"
+      },
+      "fouls": {
+        "home": "13",
+        "away": "7"
+      },
+      "tackles": {
+        "home": "11",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "7",
+        "away": "12"
+      },
+      "blocks": {
+        "home": "6",
+        "away": "4"
+      },
+      "clearances": {
+        "home": "8",
+        "away": "16"
+      },
+      "keeper_saves": {
+        "home": "4",
+        "away": "5"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "0"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  "607934": {
+    "home_team": "Spain",
+    "away_team": "Argentina",
+    "round": "Final",
+    "stats": {
+      "possession": {
+        "home": "68",
+        "away": "32"
+      },
+      "total_shots": {
+        "home": "20",
+        "away": "3"
+      },
+      "shots_on_goal": {
+        "home": "11",
+        "away": "0"
+      },
+      "expected_goals": {
+        "home": "2.34",
+        "away": "0.17"
+      },
+      "chances_created": {
+        "home": "16",
+        "away": "2"
+      },
+      "passing_accuracy": {
+        "home": "91",
+        "away": "78"
+      },
+      "crosses": {
+        "home": "31 (6)",
+        "away": "10 (0)"
+      },
+      "corners": {
+        "home": "9",
+        "away": "4"
+      },
+      "offsides": {
+        "home": "4",
+        "away": "1"
+      },
+      "fouls": {
+        "home": "21",
+        "away": "24"
+      },
+      "tackles": {
+        "home": "12",
+        "away": "12"
+      },
+      "interceptions": {
+        "home": "11",
+        "away": "9"
+      },
+      "blocks": {
+        "home": "1",
+        "away": "2"
+      },
+      "clearances": {
+        "home": "21",
+        "away": "27"
+      },
+      "keeper_saves": {
+        "home": "0",
+        "away": "11"
+      },
+      "yellow_cards": {
+        "home": "0",
+        "away": "5"
+      },
+      "red_cards": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  }
+}
