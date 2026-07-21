@@ -79,3 +79,100 @@ def match_head_to_head(match: dict) -> dict:
             f"{g['name']} ({g['minute']}')" for g in match.get("goals2", [])
         ],
     }
+
+
+def extract_team_scorers(raw_data: dict, team: str) -> pd.DataFrame:
+    rows = []
+    for match in raw_data.get("matches", []):
+        t1, t2 = match.get("team1"), match.get("team2")
+        if t1 == team:
+            for g in match.get("goals1", []):
+                rows.append(
+                    {
+                        "scorer": g["name"],
+                        "minute": g.get("minute"),
+                        "opponent": t2,
+                        "round": match.get("round"),
+                    }
+                )
+        if t2 == team:
+            for g in match.get("goals2", []):
+                rows.append(
+                    {
+                        "scorer": g["name"],
+                        "minute": g.get("minute"),
+                        "opponent": t1,
+                        "round": match.get("round"),
+                    }
+                )
+    return pd.DataFrame(rows)
+
+
+def build_tournament_top_scorers(raw_data: dict, top_n: int = 20) -> pd.DataFrame:
+    rows = []
+    for match in raw_data.get("matches", []):
+        for side in ["goals1", "goals2"]:
+            for g in match.get(side, []):
+                team = match["team1"] if side == "goals1" else match["team2"]
+                rows.append(
+                    {
+                        "scorer": g["name"],
+                        "team": team,
+                        "minute": g.get("minute"),
+                        "round": match.get("round"),
+                    }
+                )
+    df = pd.DataFrame(rows)
+    return (
+        df.groupby(["scorer", "team"])
+        .size()
+        .reset_index(name="goals")
+        .sort_values("goals", ascending=False)
+        .head(top_n)
+    )
+
+
+def generate_synthetic_match_stats(
+    matches_df: pd.DataFrame, teams: list[str]
+) -> pd.DataFrame:
+    np.random.seed(42)
+    rows = []
+    team_style = {
+        "Spain": {"poss_base": 62, "poss_std": 5, "shots_base": 14, "shots_std": 4},
+        "Argentina": {"poss_base": 55, "poss_std": 4, "shots_base": 13, "shots_std": 3},
+    }
+    for _, m in matches_df.iterrows():
+        for team in teams:
+            if team not in (m["team_home"], m["team_away"]):
+                continue
+            style = team_style.get(
+                team, {"poss_base": 50, "poss_std": 5, "shots_base": 10, "shots_std": 3}
+            )
+            possession = max(
+                35,
+                min(75, int(np.random.normal(style["poss_base"], style["poss_std"]))),
+            )
+            shots = max(
+                3, int(np.random.normal(style["shots_base"], style["shots_std"]))
+            )
+            shots_on_target = max(1, int(shots * np.random.uniform(0.3, 0.55)))
+            opponent = m["team_away"] if team == m["team_home"] else m["team_home"]
+            goals = m["score_ft_home"] if team == m["team_home"] else m["score_ft_away"]
+            goals_conceded = (
+                m["score_ft_away"] if team == m["team_home"] else m["score_ft_home"]
+            )
+            rows.append(
+                {
+                    "team": team,
+                    "opponent": opponent,
+                    "round": m["round"],
+                    "possession": possession,
+                    "shots": shots,
+                    "shots_on_target": shots_on_target,
+                    "goals": goals,
+                    "goals_conceded": goals_conceded,
+                    "corners": max(0, int(possession / 15 + np.random.normal(0, 2))),
+                    "fouls": max(3, int(20 - possession / 5 + np.random.normal(0, 3))),
+                }
+            )
+    return pd.DataFrame(rows)

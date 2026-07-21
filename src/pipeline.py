@@ -54,10 +54,10 @@ def run_pipeline(config_path="config.yaml"):
     )
 
     print("[5/6] Generating plots...")
-    plot_paths = generate_all_plots(final, matches_df, standings)
+    plot_paths = generate_all_plots(final, matches_df, standings, raw_data=of_data)
 
     print("[6/6] Generating conclusion...")
-    conclusion = generate_conclusion(final, matches_df, standings)
+    conclusion = generate_conclusion(final, matches_df, standings, raw_data=of_data)
     write_conclusion_to_file(conclusion, "reports/conclusion.md")
     print(conclusion.encode("ascii", errors="replace").decode("ascii"))
 

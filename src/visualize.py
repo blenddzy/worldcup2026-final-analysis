@@ -263,3 +263,241 @@ def plot_goal_timeline(goals_df: pd.DataFrame, save_path: str = None):
         plt.savefig(save_path, dpi=150, bbox_inches="tight")
     if plt.get_backend() != "Agg":
         plt.show()
+
+
+def plot_team_top_scorers(
+    scorers_df: pd.DataFrame, team: str, color: str, save_path: str = None
+):
+    team_goals = (
+        scorers_df.groupby("scorer")
+        .size()
+        .reset_index(name="goals")
+        .sort_values("goals", ascending=False)
+        .head(8)
+    )
+    fig, ax = plt.subplots(figsize=(10, 5))
+    bars = ax.barh(
+        team_goals["scorer"],
+        team_goals["goals"],
+        color=color,
+        alpha=0.8,
+        edgecolor="white",
+    )
+    for bar, g in zip(bars, team_goals["goals"]):
+        ax.text(
+            bar.get_width() + 0.1,
+            bar.get_y() + bar.get_height() / 2,
+            str(g),
+            va="center",
+            fontsize=11,
+            fontweight="bold",
+        )
+    ax.set_xlabel("Goals")
+    ax.set_title(
+        f"{team} - Top Goal Scorers in World Cup 2026", fontsize=14, fontweight="bold"
+    )
+    ax.invert_yaxis()
+    ax.set_xlim(0, team_goals["goals"].max() + 2)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    if plt.get_backend() != "Agg":
+        plt.show()
+
+
+def plot_tournament_top_scorers(top_scorers: pd.DataFrame, save_path: str = None):
+    fig, ax = plt.subplots(figsize=(12, 7))
+    colors = plt.cm.Set2(np.linspace(0, 1, len(top_scorers["team"].unique())))
+    team_color_map = {
+        team: colors[i] for i, team in enumerate(top_scorers["team"].unique())
+    }
+    bar_colors = [team_color_map[t] for t in top_scorers["team"]]
+    bars = ax.barh(
+        top_scorers["scorer"],
+        top_scorers["goals"],
+        color=bar_colors,
+        edgecolor="white",
+        linewidth=0.5,
+    )
+    for bar, g, team in zip(bars, top_scorers["goals"], top_scorers["team"]):
+        ax.text(
+            bar.get_width() + 0.1,
+            bar.get_y() + bar.get_height() / 2,
+            f"{g} ({team})",
+            va="center",
+            fontsize=9,
+        )
+    ax.set_xlabel("Goals", fontsize=12)
+    ax.set_title("World Cup 2026 - Top Goal Scorers", fontsize=14, fontweight="bold")
+    ax.invert_yaxis()
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    if plt.get_backend() != "Agg":
+        plt.show()
+
+
+def plot_cumulative_goals(
+    spain_route: pd.DataFrame, arg_route: pd.DataFrame, save_path: str = None
+):
+    fig, ax = plt.subplots(figsize=(12, 5))
+    spain_cum = spain_route["goals_for"].cumsum()
+    arg_cum = arg_route["goals_for"].cumsum()
+    rounds = spain_route["round"].tolist()
+    x = range(len(rounds))
+    ax.plot(
+        x, spain_cum, "-o", color="#C8102E", linewidth=2.5, markersize=8, label="Spain"
+    )
+    ax.plot(
+        x,
+        arg_cum,
+        "-o",
+        color="#75AADB",
+        linewidth=2.5,
+        markersize=8,
+        label="Argentina",
+    )
+    for i, (s, a) in enumerate(zip(spain_cum, arg_cum)):
+        ax.annotate(
+            str(s),
+            (i, s),
+            textcoords="offset points",
+            xytext=(0, 10),
+            ha="center",
+            fontsize=8,
+            color="#C8102E",
+            fontweight="bold",
+        )
+        ax.annotate(
+            str(a),
+            (i, a),
+            textcoords="offset points",
+            xytext=(0, -15),
+            ha="center",
+            fontsize=8,
+            color="#75AADB",
+            fontweight="bold",
+        )
+    ax.set_xticks(list(x))
+    ax.set_xticklabels(rounds, rotation=45, ha="right", fontsize=9)
+    ax.set_ylabel("Cumulative Goals Scored", fontsize=12)
+    ax.set_title(
+        "Cumulative Goals Through the Tournament", fontsize=14, fontweight="bold"
+    )
+    ax.legend(fontsize=11)
+    ax.grid(axis="y", alpha=0.3)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    if plt.get_backend() != "Agg":
+        plt.show()
+
+
+def plot_match_stats_comparison(stats_df: pd.DataFrame, save_path: str = None):
+    fig, axes = plt.subplots(2, 3, figsize=(15, 9))
+    metrics = [
+        ("possession", "Possession %", "%"),
+        ("shots", "Total Shots", ""),
+        ("shots_on_target", "Shots on Target", ""),
+        ("goals", "Goals", ""),
+        ("corners", "Corners", ""),
+        ("fouls", "Fouls", ""),
+    ]
+    colors = {"Spain": "#C8102E", "Argentina": "#75AADB"}
+    for ax, (col, title, unit) in zip(axes.flatten(), metrics):
+        for team in ["Spain", "Argentina"]:
+            team_data = stats_df[stats_df["team"] == team]
+            ax.plot(
+                team_data.index,
+                team_data[col],
+                "-o",
+                color=colors[team],
+                label=team,
+                linewidth=2,
+                markersize=6,
+            )
+        ax.set_title(title, fontsize=12, fontweight="bold")
+        ax.set_xlabel("Match Progression")
+        ax.set_xticks([])
+        ax.legend(fontsize=8)
+        ax.grid(axis="y", alpha=0.3)
+        ax.spines["top"].set_visible(False)
+        ax.spines["right"].set_visible(False)
+    plt.suptitle(
+        "Spain vs Argentina - Per-Match Advanced Stats Comparison",
+        fontsize=14,
+        fontweight="bold",
+    )
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    if plt.get_backend() != "Agg":
+        plt.show()
+
+
+def plot_path_to_final_bracket(
+    spain_route: pd.DataFrame, arg_route: pd.DataFrame, save_path: str = None
+):
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 7))
+    for ax, df, team, color, flag_color in zip(
+        [ax1, ax2],
+        [spain_route, arg_route],
+        ["Spain", "Argentina"],
+        ["#C8102E", "#75AADB"],
+        ["#FFC400", "#FFD700"],
+    ):
+        rounds = df["round"].tolist()
+        opponents = df["opponent"].tolist()
+        gf = df["goals_for"].tolist()
+        ga = df["goals_against"].tolist()
+        y_pos = range(len(rounds) - 1, -1, -1)
+        for i, (rnd, opp, g, a) in enumerate(zip(rounds, opponents, gf, ga)):
+            y = len(rounds) - 1 - i
+            color_box = "#2ecc71" if g > a else "#e74c3c" if g < a else "#f39c12"
+            ax.add_patch(
+                mpatches.FancyBboxPatch(
+                    (0.02, y - 0.3),
+                    0.55,
+                    0.6,
+                    boxstyle="round,pad=0.05",
+                    facecolor=color_box,
+                    alpha=0.2,
+                    edgecolor=color_box,
+                    linewidth=2,
+                )
+            )
+            ax.text(
+                0.3,
+                y,
+                f"{rnd}\n{opp}\n{g}-{a}",
+                ha="center",
+                va="center",
+                fontsize=9,
+                fontweight="bold",
+                linespacing=1.5,
+            )
+            if i < len(rounds) - 1:
+                ax.annotate(
+                    "",
+                    xy=(0.3, y - 0.3),
+                    xytext=(0.3, y - 0.7),
+                    arrowprops=dict(arrowstyle="->", color=color, lw=2),
+                )
+        ax.set_xlim(0, 1)
+        ax.set_ylim(-0.5, len(rounds))
+        ax.set_title(
+            f"{team}\nRoute to the Final", fontsize=14, fontweight="bold", color=color
+        )
+        ax.axis("off")
+    plt.suptitle("World Cup 2026 - Path to the Final", fontsize=16, fontweight="bold")
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, dpi=150, bbox_inches="tight")
+    if plt.get_backend() != "Agg":
+        plt.show()

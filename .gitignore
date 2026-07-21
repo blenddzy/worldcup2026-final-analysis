@@ -5,7 +5,6 @@ __pycache__/
 .ipynb_checkpoints/
 data/raw/
 data/processed/
-reports/figures/
 reports/conclusion.md
 .env
 venv/
