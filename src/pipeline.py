@@ -7,6 +7,7 @@ from src.openfootball_client import (
 )
 from src.wcup_client import fetch_matches, fetch_standings
 from src.clean import load_openfootball, extract_goals_by_team, standings_to_df
+from src.fox_sports_client import load_team_stats
 from src.report import generate_all_plots, generate_conclusion, write_conclusion_to_file
 
 
@@ -53,10 +54,21 @@ def run_pipeline(config_path="config.yaml"):
         f"       {len(standings_df)} teams across {standings_df['group'].nunique()} groups"
     )
 
-    print("[5/6] Generating plots...")
+    print("[5/7] Fetching Fox Sports team stats...")
+    fox_stats_path = "data/external/fox_sports_team_stats.json"
+    fox_stats = load_team_stats(fox_stats_path)
+    if fox_stats and "Spain" in fox_stats:
+        spain_poss = fox_stats["Spain"].get("POSS", {}).get("value", "?")
+        print(
+            f"       Spain possession: {spain_poss}% (real), Corner Kicks: {fox_stats['Spain'].get('CK', {}).get('value', '?')}"
+        )
+    else:
+        print("       Fox Sports team stats not available, using synthetic defaults")
+
+    print("[6/7] Generating plots...")
     plot_paths = generate_all_plots(final, matches_df, standings, raw_data=of_data)
 
-    print("[6/6] Generating conclusion...")
+    print("[7/7] Generating conclusion...")
     conclusion = generate_conclusion(final, matches_df, standings, raw_data=of_data)
     write_conclusion_to_file(conclusion, "reports/conclusion.md")
     print(conclusion.encode("ascii", errors="replace").decode("ascii"))

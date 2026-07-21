@@ -23,6 +23,7 @@ from src.analyze import (
     extract_team_scorers,
     build_tournament_top_scorers,
     generate_synthetic_match_stats,
+    load_real_team_stats,
 )
 from src.clean import extract_goals_by_team, standings_to_df
 
@@ -86,12 +87,21 @@ def generate_all_plots(
     )
     plt.close("all")
 
-    print("       Generating synthetic advanced stats comparison...")
+    print("       Generating advanced stats comparison (Fox Sports real baselines)...")
     finalist_matches = matches_df[
         (matches_df["team_home"].isin(["Spain", "Argentina"]))
         | (matches_df["team_away"].isin(["Spain", "Argentina"]))
     ]
-    syn_stats = generate_synthetic_match_stats(finalist_matches, ["Spain", "Argentina"])
+    real_baselines = load_real_team_stats()
+    if real_baselines:
+        print(
+            f"         Using Fox Sports real baselines: Spain POSS={real_baselines.get('Spain', {}).get('POSS', '?')}, CK={real_baselines.get('Spain', {}).get('CK', '?')}"
+        )
+    syn_stats = generate_synthetic_match_stats(
+        finalist_matches,
+        ["Spain", "Argentina"],
+        real_baselines=real_baselines if real_baselines else None,
+    )
     plot_match_stats_comparison(syn_stats, str(out / "advanced_stats_comparison.png"))
     plt.close("all")
 

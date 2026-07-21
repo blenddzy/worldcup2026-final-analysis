@@ -1,0 +1,110 @@
+{
+  "Kylian Mbappe": {
+    "G": {
+      "value": "10",
+      "stat_name": "Goals"
+    },
+    "SOG": {
+      "value": "25",
+      "stat_name": "Shots On Goal"
+    },
+    "xG": {
+      "value": "6.44",
+      "stat_name": "Expected Goals (xG)"
+    },
+    "RTG": {
+      "value": "7.7",
+      "stat_name": "Player Rating"
+    }
+  },
+  "Michael Olise": {
+    "A": {
+      "value": "7",
+      "stat_name": "Assists"
+    }
+  },
+  "Lionel Messi": {
+    "POTM": {
+      "value": "5",
+      "stat_name": "Player Of The Match"
+    },
+    "CC": {
+      "value": "24",
+      "stat_name": "Chances Created"
+    }
+  },
+  "Neil El Aynaoui": {
+    "FC": {
+      "value": "15",
+      "stat_name": "Fouls Committed"
+    }
+  },
+  "Senne Lammens": {
+    "SV%": {
+      "value": "50",
+      "stat_name": "Keeper Save Percentage"
+    }
+  },
+  "Unai Simon": {
+    "CS": {
+      "value": "7",
+      "stat_name": "Clean Sheets"
+    }
+  },
+  "England": {
+    "GF": {
+      "value": "20",
+      "stat_name": "Goals"
+    },
+    "GA": {
+      "value": "12",
+      "stat_name": "Goals Against"
+    }
+  },
+  "France": {
+    "xG": {
+      "value": "15.4",
+      "stat_name": "Expected Goals (xG)"
+    },
+    "SOG": {
+      "value": "63",
+      "stat_name": "Shots On Goal"
+    },
+    "CC": {
+      "value": "106",
+      "stat_name": "Chances Created"
+    }
+  },
+  "Spain": {
+    "POSS": {
+      "value": "64",
+      "stat_name": "Possession Time Minutes Avg"
+    },
+    "CK": {
+      "value": "54",
+      "stat_name": "Corner Kicks"
+    },
+    "CS": {
+      "value": "7",
+      "stat_name": "Clean Sheets"
+    }
+  },
+  "Algeria": {
+    "PA": {
+      "value": "0.92",
+      "stat_name": "Passing Accuracy"
+    }
+  },
+  "Argentina": {
+    "TKL": {
+      "value": "93",
+      "stat_name": "Tackles"
+    }
+  },
+  "Paraguay": {
+    "SV": {
+      "value": "22",
+      "stat_name": "Saves"
+    }
+  }
+}

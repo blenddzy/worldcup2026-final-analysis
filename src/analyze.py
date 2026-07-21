@@ -1,3 +1,6 @@
+import json
+from pathlib import Path
+
 import pandas as pd
 import numpy as np
 
@@ -132,15 +135,56 @@ def build_tournament_top_scorers(raw_data: dict, top_n: int = 20) -> pd.DataFram
     )
 
 
+def load_real_team_stats(stats_path: str = "") -> dict:
+    if stats_path:
+        path = Path(stats_path)
+    else:
+        path = (
+            Path(__file__).parent.parent
+            / "data"
+            / "external"
+            / "fox_sports_team_stats.json"
+        )
+    if path.exists():
+        with open(path) as f:
+            raw = json.load(f)
+        stats = {}
+        for team in ["Spain", "Argentina"]:
+            team_data = raw.get(team, {})
+            stats[team] = {}
+            for abbr, info in team_data.items():
+                stats[team][abbr] = info["value"]
+        return stats
+    return {}
+
+
 def generate_synthetic_match_stats(
-    matches_df: pd.DataFrame, teams: list[str]
-) -> pd.DataFrame:
+    matches_df: pd.DataFrame,
+    teams: list[str],
+    real_baselines: dict = None,
+) -> pd.DataFrame:  # type: ignore[arg-type]
     np.random.seed(42)
     rows = []
     team_style = {
         "Spain": {"poss_base": 62, "poss_std": 5, "shots_base": 14, "shots_std": 4},
         "Argentina": {"poss_base": 55, "poss_std": 4, "shots_base": 13, "shots_std": 3},
     }
+    corners_per_game = {}
+    if real_baselines:
+        for team in teams:
+            tdata = real_baselines.get(team, {})
+            style = team_style.get(team, {})
+            if "POSS" in tdata:
+                style["poss_base"] = int(tdata["POSS"])
+            if "CK" in tdata:
+                ck_total = int(tdata["CK"])
+                n_matches = len(
+                    matches_df[
+                        (matches_df["team_home"] == team)
+                        | (matches_df["team_away"] == team)
+                    ]
+                )
+                corners_per_game[team] = ck_total / max(n_matches, 1)
     for _, m in matches_df.iterrows():
         for team in teams:
             if team not in (m["team_home"], m["team_away"]):
@@ -161,6 +205,13 @@ def generate_synthetic_match_stats(
             goals_conceded = (
                 m["score_ft_away"] if team == m["team_home"] else m["score_ft_home"]
             )
+            if real_baselines:
+                tdata = real_baselines.get(team, {})
+                ck_per_game = corners_per_game.get(team, 4.5)
+                corners = max(0, int(np.random.normal(ck_per_game, 2)))
+            else:
+                corners = max(0, int(possession / 15 + np.random.normal(0, 2)))
+            fouls = max(3, int(20 - possession / 5 + np.random.normal(0, 3)))
             rows.append(
                 {
                     "team": team,
@@ -171,8 +222,8 @@ def generate_synthetic_match_stats(
                     "shots_on_target": shots_on_target,
                     "goals": goals,
                     "goals_conceded": goals_conceded,
-                    "corners": max(0, int(possession / 15 + np.random.normal(0, 2))),
-                    "fouls": max(3, int(20 - possession / 5 + np.random.normal(0, 3))),
+                    "corners": corners,
+                    "fouls": fouls,
                 }
             )
     return pd.DataFrame(rows)
